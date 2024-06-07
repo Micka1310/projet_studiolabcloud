@@ -1,0 +1,6891 @@
+/* ====================================================================================== */
+/* ||                         CSS de la page d'accueil de StudiolabCloud               || */
+/* ====================================================================================== */
+
+
+
+/* ##############               ############## */
+/* ##############  CSS général  ############## */
+/* ##############               ############## */
+
+header
+{
+    background-color: rgb(240, 150, 0);
+    /*background-color: transparent;*/
+    width: 100%;
+}
+
+
+
+main
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;    /* largeur */
+    height: 100%;   /* longueur */
+}
+
+
+
+footer
+{
+    /*margin-top: 4%;*/
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+
+
+/* ##############                            ############## */
+/* ##############  Pour définir les polices  ############## */
+/* ##############                            ############## */
+
+p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+
+input
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Pour aller à la ligne */
+.a_la_ligne
+{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+/* ====================================================================================== */
+/* ||                                        header                                    || */
+/* ====================================================================================== */
+
+
+
+/* ##############                   ############## */
+/* ##############  CSS de l'entête  ############## */
+/* ##############                   ############## */
+
+/* partie décoration de cercle à gauche dans la partie "serveur RISE" */
+#serveur_forme_1
+{
+    position: absolute;
+    z-index: 0;
+}
+
+#serveur_forme_3
+{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_4
+{
+    position: absolute;
+    margin-top: 23.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_5
+{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_6
+{
+    position: absolute;
+    margin-top: 26.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_7
+{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_8
+{
+    position: absolute;
+    margin-top: 29.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_9
+{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_10
+{
+    position: absolute;
+    margin-top: 32.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_11
+{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_12
+{
+    position: absolute;
+    margin-top: 35.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_13
+{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_14
+{
+    position: absolute;
+    margin-top: 38.5%;
+    margin-left: 0.4%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_15
+{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_16
+{
+    position: absolute;
+    margin-top: 23.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_17
+{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_18
+{
+    position: absolute;
+    margin-top: 26.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_19
+{
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_20
+{
+    position: absolute;
+    margin-top: 29.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_21
+{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_22
+{
+    position: absolute;
+    margin-top: 32.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_23
+{
+    position: absolute;
+    margin-top: 34%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_24
+{
+    position: absolute;
+    margin-top: 35.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_25
+{
+    position: absolute;
+    margin-top: 37%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+#serveur_forme_26
+{
+    position: absolute;
+    margin-top: 38.5%;
+    margin-left: 1.6%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: white;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+
+
+/* partie décoration de cercle à gauche dans la partie "serveur RISE" */
+#serveur_forme_27
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_28
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_29
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_30
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_31
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_32
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_33
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_34
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_35
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 93.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_36
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_37
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_38
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_39
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_40
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_41
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_42
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_43
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_44
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 92%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_45
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_46
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_47
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_48
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_49
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_50
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_51
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_52
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_53
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 90.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_54
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_55
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_56
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_57
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_58
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_59
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_60
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_61
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_62
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 89%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_63
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_64
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_65
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_66
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_67
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_68
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_69
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_70
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_71
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 87.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_72
+{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_73
+{
+    position: absolute;
+    margin-top: 16.5%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_74
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_75
+{
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_76
+{
+    position: absolute;
+    margin-top: 21%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_77
+{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_78
+{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_79
+{
+    position: absolute;
+    margin-top: 25.5%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#serveur_forme_80
+{
+    position: absolute;
+    margin-top: 27%;
+    margin-left: 86%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(0, 210, 200);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+
+
+/* Pour rendre les élements qui seront à l'intérieur de la balise "header_flex_1" flexibles (je veux les aligner quoi) */
+.header_flex_1
+{
+    display: flex;
+    margin-top: -0.5%;
+}
+
+
+
+/* Pour aligner des éléments à droite */
+.header_droite_1
+{
+    text-align: right;
+    align-items: right;
+    align-content: right;
+}
+
+
+
+/* Pour ajuster l'image de l'entête */
+.header_image
+{
+    position: absolute;
+    top: 3%;
+    right: 0%;
+    left: 5%;
+    z-index: 7;
+}
+
+
+
+/* création d'une forme pour les 1er liens */
+#header_forme_partie_1
+{
+    position: relative;
+    width: 77%; 
+    height: 45px; 
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    margin-right: 1.5%;
+    margin-left: auto;
+    background-color: black;
+    z-index: 1;
+}
+
+
+
+/* Pour bien positioner le numéro de tél portable dans l'entête */
+#header_position_1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    margin-right: -1%;
+    position: relative;
+    color: white;
+    top: 7px;
+    left: -3%;
+}
+
+
+
+/* Pour positioner l'image du tél portable */
+#header_image_tel_1
+{
+    position: relative;
+    top: 12px ;
+    left: -3%;
+    opacity: 0.5;
+}
+
+
+
+/* Pour bien positioner le numéro de tél portable dans l'entête */
+#header_position_2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    position: relative;
+    color: white;
+    top: 7px;
+    left: -4%;
+}
+
+
+
+/* Pour positioner l'image du tél fixe */
+#header_image_tel_2
+{
+    position: relative;
+    top: 12px ;
+    left: -4%;
+    opacity: 0.5;
+}
+
+
+
+/* Pour positionner le dessin de batiment */
+#header_batiment
+{
+    position: absolute;
+    top: 1%;
+    left: 78.2%;
+    z-index: 2;
+}
+
+
+
+/* Pour positionner le dessin de téléphone */
+#header_telephone
+{
+    position: absolute;
+    top: 1.25%;
+    left: 87.8%;
+    z-index: 2;
+}
+
+
+
+/* Pour le bouton de recherche */
+#header_bouton_de_recherche
+{
+    position: relative;
+    top: 14px ;
+    left: -4.7%;
+    z-index: 3; /* Pour superposé le bouton de recherche devant la barre de recherche */
+    opacity: 0.5; /* je rend le bouton transparent */
+}
+
+
+
+/*  Pour la barre de recherche */
+#header_barre_de_recherche
+{
+    position: relative;
+    top: 7px ;
+    left: -7%;
+    width: 80px;
+    height: 25px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 30px; 
+    background-image: url('test_patate.jpeg'); 
+    background-size: 20px;
+    background-position: left center; 
+    background-repeat: no-repeat;
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+    border: none;
+    z-index: 2; /* Pour superposé la barre de recherche dèrrière le bouton de recherche */
+}
+
+
+
+/* Pour les liens de la première partie */
+#header_lien_1
+{
+    position: relative;
+    right: 8%;
+    top: 7px;
+    text-decoration: none; /* Pour supprimer la ligne qui souligne le lien */
+    color: aquamarine;
+    z-index: 1;
+}
+
+#header_lien_2
+{
+    position: relative;
+    right: 12%;
+    top: 7px;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_3
+{
+    position: relative;
+    right: 16%;
+    top: 7px;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_4
+{
+    position: relative;
+    right: 20%;
+    top: 7px;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_5
+{
+    position: relative;
+    right: 24%;
+    top: 7px;
+    text-decoration: none;
+    color: orange;
+    z-index: 1;
+}
+
+
+
+/* Pour positionner la seconde ligne de lien */
+.header_droite_2
+{
+    text-align: right;
+    align-items: right;
+    align-content: right;
+    margin-top: 1.15%;
+}
+
+
+
+/* création d'une forme pour décorer les 2èmes liens */
+#header_forme_partie_2
+{
+    width: 78%; 
+    height: 16vh; 
+    margin-right: auto;
+    margin-left: 0%;
+    margin-top: -7.6%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 0px 0px 35px 0px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: black;
+    opacity: 0.4;
+}
+
+
+
+/* création d'une forme qui sert de sélécteur pour les 2èmes liens */
+#header_forme_partie_3
+{
+    position: relative;
+    width: 8%; 
+    height: 2vh; 
+    margin-right: auto;
+    margin-left: 20.3%;
+    margin-top: -0.5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    z-index: 2;
+}
+
+
+
+/* Pour les liens de la deuxième partie */
+#header_lien_6
+{
+    position: relative;
+    right: 24%;
+    text-decoration: none; /* Pour supprimer la ligne qui souligne le lien */
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_7
+{
+    position: relative;
+    right: 26.5%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_8
+{
+    position: relative;
+    right: 29.5%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_9
+{
+    position: relative;
+    right: 33%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_10
+{
+    position: relative;
+    right: 36.5%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_11
+{
+    position: relative;
+    right: 40%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+#header_lien_12
+{
+    position: relative;
+    right: 43.5%;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+
+
+/* Création du bouton de devis gratuit */
+#bouton_devis_gratuit
+{
+    position: relative;
+    bottom: 15px;
+    right: 5%;
+    padding: 8px 40px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:white;
+}
+
+
+
+
+/* ====================================================================================== */
+/* ||                                         main                                     || */
+/* ====================================================================================== */
+
+
+
+/* ##############                                      ############## */
+/* ##############  CSS de de la partie "serveur rise"  ############## */
+/* ##############                                      ############## */
+
+/* Pour positionner l'image du serveur rise */
+#main_image_1
+{
+    position: relative;
+    margin-right: 10%;
+    float: right;
+    opacity: 1;
+    z-index: 4;
+}
+
+
+
+/* pour déplacer les éléments vers le milieu */
+#main_droite_1
+{
+    margin-left:14%;
+}
+
+
+
+/* Pour personaliser la ligne juste avant le petit titre "public cloud" */
+#p_serveur_1
+{
+    position: relative;
+    font-size:100%;
+    margin-left:1.5%;
+    transform: scaleX(10);  /* Pour changer la taille de l'élément à l'horizontal */
+    color: white;
+    display: inline-block;
+    z-index: 4;
+}
+
+
+
+/* Pour personaliser le titre "public cloud" */
+#p_serveur_2
+{
+    position: relative;
+    font-size:90%;
+    margin-left:1.5%;
+    color: white;
+    display: inline-block;
+    z-index: 4;
+}
+
+
+
+/* Pour personaliser le titre "à partir de 85,49€..." */
+#h_serveur_1
+{
+    position: relative;
+    font-size: 175%;
+    margin-top: 0%;
+    color: rgb(255, 232, 175);
+    z-index: 4;
+}
+
+
+
+/* Pour personaliser le titre "NOUVEAUX.." */
+#h_serveur_2
+{
+    position: relative;
+    font-size: 300%;
+    margin-top: 2%;
+    transform: scaleY(1.6); /* Pour changer la taille de l'élément à la verticale */
+    color: white;
+    z-index: 4;
+}
+
+#h_serveur_3
+{
+    position: relative;
+    font-size: 300%;
+    margin-top: -3%;
+    transform: scaleY(1.6); /* Pour changer la taille de l'élément à la verticale */
+    color: white;
+    z-index: 4;
+}
+
+
+
+/* Pour personaliser le paragraphe "Démarrer votre premier..." */
+#p_serveur_3
+{
+    position: relative;
+    color: white;
+    display: inline;
+    z-index: 4;
+}
+
+#p_serveur_4
+{
+    position: relative;
+    margin-top: 0%;
+    color: white;
+    z-index: 4;
+}
+
+
+
+/* Pour personaliser le bouton "Nos tarifs" */
+#bouton_tarif
+{
+    position: relative;
+    bottom: 15px;
+    right: 0%;
+    margin-top : 3%;
+    padding: 8px 40px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:white;
+    z-index: 4;
+}
+
+
+
+
+/* ##############                                      ############## */
+/* ##############  CSS de de la partie "tarif"  ############## */
+/* ##############                                      ############## */
+
+/* Pour aligner les formes et les tarifs */
+#main_forme_tarif_principal_1
+{
+    position: relative;
+    display: flex;
+    z-index: 4;
+}
+
+#main_forme_tarif_principal_2
+{
+    position: relative;
+    display: flex;
+    margin-top: -26.3%;
+    z-index: 4;
+}
+
+
+/* forme pour décorer les tarifs avec un rectangle en arrière-plan */
+.main_forme_tarif_1
+{
+    position: relative;
+    width: 15%; 
+    height: 46vh; 
+    margin-left: 14%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+}
+
+.main_forme_tarif_2
+{
+    position: relative;
+    width: 15%; 
+    height: 46vh; 
+    margin-left: 4%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+}
+
+.main_forme_tarif_3
+{
+    position: relative;
+    width: 15%; 
+    height: 46vh; 
+    margin-left: 14%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: black;
+    opacity: 0.7;   /* Problème de dépendance de l'opacité avec le contenue à l'intérieur de la forme... */
+}
+
+.main_forme_tarif_4
+{
+    position: relative;
+    width: 15%; 
+    height: 46vh; 
+    margin-left: 4%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: black;
+    opacity: 0.7;   /* Problème de dépendance de l'opacité avec le contenue à l'intérieur de la forme... */
+}
+
+
+
+/* Pour personaliser le contenue du premier tarif*/
+#h_premier_tarif_1
+{
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 100, 0);
+    /*opacity: 1 !important;*/  /*  test d'opacité qui ne marche pas */
+    z-index: 1;
+}
+
+#h_premier_tarif_2
+{
+    margin-top: -13%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: white;
+    /*opacity: 1 !important;
+    z-index: 1;*/
+}
+
+#h_premier_tarif_3
+{
+    font-size: 180%;
+    margin-top: -8%;
+    text-align: center;
+    color: rgb(0, 210, 200);
+}
+
+#h_premier_tarif_4
+{
+    margin-top: -12%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#h_premier_tarif_5
+{
+    margin-top: -8%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#p_premier_tarif_1
+{
+    margin-top: -8%;
+    margin-left: 5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 76%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+/* Pour personaliser le contenue du deuxième tarif*/
+#h_deuxieme_tarif_1
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 100, 0);
+    z-index: 1;
+}
+
+#h_deuxieme_tarif_2
+{
+    margin-top: -13%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: white;
+    /*opacity: 1 !important;
+    z-index: 1;*/
+}
+
+#h_deuxieme_tarif_3
+{
+    font-size: 180%;
+    margin-top: -8%;
+    text-align: center;
+    color: rgb(0, 210, 200);
+}
+
+#h_deuxieme_tarif_4
+{
+    margin-top: -12%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#h_deuxieme_tarif_5
+{
+    margin-top: -8%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#p_deuxieme_tarif_1
+{
+    margin-top: -8%;
+    margin-left: 5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 76%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+/* Pour personaliser le contenue du troisième tarif*/
+#h_troisieme_tarif_1
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 100, 0);
+    z-index: 1;
+}
+
+#h_troisieme_tarif_2
+{
+    margin-top: -13%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: white;
+    /*opacity: 1 !important;
+    z-index: 1;*/
+}
+
+#h_troisieme_tarif_3
+{
+    font-size: 180%;
+    margin-top: -8%;
+    text-align: center;
+    color: rgb(0, 210, 200);
+}
+
+#h_troisieme_tarif_4
+{
+    margin-top: -12%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#h_troisieme_tarif_5
+{
+    margin-top: -8%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#p_troisieme_tarif_1
+{
+    margin-top: -8%;
+    margin-left: 5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 76%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+/* Pour personaliser le contenue du quatrième tarif*/
+#h_quatrieme_tarif_1
+{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(255, 100, 0);
+    z-index: 1;
+}
+
+#h_quatrieme_tarif_2
+{
+    margin-top: -13%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    color: white;
+    /*opacity: 1 !important;
+    z-index: 1;*/
+}
+
+#h_quatrieme_tarif_3
+{
+    font-size: 180%;
+    margin-top: -8%;
+    text-align: center;
+    color: rgb(0, 210, 200);
+}
+
+#h_quatrieme_tarif_4
+{
+    margin-top: -12%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#h_quatrieme_tarif_5
+{
+    margin-top: -8%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+#p_quatrieme_tarif_1
+{
+    margin-top: -8%;
+    margin-left: 5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 76%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+
+/* ##############                                       ############## */
+/* ##############  CSS de de la partie "succès client"  ############## */
+/* ##############                                       ############## */
+
+/* Pour positionner et personaliser le petit titre "Succès client" et la flèche de droite */
+#h_succes_client
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-weight: 100;
+    display: inline-block;
+}
+
+#h_succes_client_1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+    display: inline;
+}
+
+
+
+/* Pour aligner les boutons et les images" */
+.succes_client_flex
+{
+    display: flex;
+    /*margin-left: 5%;*/
+    /*margin-top: 4%;*/
+}
+
+
+
+/* Création des boutons en forme de flèche pour faire défiler les images des clients */
+#bouton_succes_client_gauche
+{
+    position: relative;
+    margin-left: 3%;
+    padding: 10px 40px; /* largeur, longueur*/
+    font-size: 300%;
+    /*top: 30px;*/
+    float: left;
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:red;
+}
+
+#bouton_succes_client_droite
+{
+    position: relative;
+    padding: 10px 40px; /* largeur, longueur*/
+    font-size: 300%;
+    /*top: 30px;*/
+    float: right;
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:blue;
+}
+
+
+
+/* Pour ajuster les images des clients (à voir avec Javascript) */
+#img_succes_client_1
+{
+    margin-left: 0%;
+}
+
+#img_succes_client_2
+{
+    margin-left: 5%;
+}
+
+#img_succes_client_3
+{
+    margin-left: 5%;
+}
+
+#img_succes_client_4
+{
+    margin-left: 5%;
+}
+
+#img_succes_client_5
+{
+    margin-left: 5%;
+}
+
+
+
+
+/* ##############                                      ############## */
+/* ##############  CSS de de la partie "Nos services"  ############## */
+/* ##############                                      ############## */
+
+/* Pour aligner les les formes qui ressemblent à des lignes et les paragraphes */
+#service_forme_flex
+{
+    display: flex;
+}
+
+
+
+/* Pour décorer la partie "service" avec des lignes de points */
+#service_forme_1
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_2
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_3
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_4
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_5
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_6
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_7
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 93%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_8
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_9
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_10
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_11
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_12
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_13
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_14
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 91.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_15
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_16
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_17
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_18
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_19
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_20
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_21
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 90%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_22
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_23
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_24
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_25
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_26
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_27
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_28
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 88.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_29
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_30
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_31
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_32
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_33
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_34
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_35
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 87%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_36
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_37
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_38
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_39
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_40
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_41
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_42
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 85.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_43
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_44
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_45
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_46
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_47
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_48
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_49
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 84%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_50
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_51
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_52
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_53
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_54
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_55
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_56
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 82.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_57
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_58
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_59
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_60
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_61
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_62
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_63
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 81%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_64
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_65
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_66
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_67
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_68
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_69
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_70
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 79.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_71
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_72
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_73
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_74
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_75
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_76
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_77
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 78%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_78
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_79
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_80
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_81
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_82
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_83
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_84
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 76.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_85
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_86
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_87
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_88
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_89
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_90
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_91
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 75%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_92
+{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_93
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_94
+{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_95
+{
+    position: absolute;
+    margin-top: 14.5%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_96
+{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_97
+{
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#service_forme_98
+{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 73.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: red;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+
+/* Pour décorer la partie "service" avec des cercles dèrrière le titre */
+#service_forme_99
+{
+    position: absolute;
+    margin-top: 6.5%;
+    margin-left: 49%;
+    width: 9.5%; 
+    height: 20%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: orange;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_100
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 48.5%;
+    width: 7%; 
+    height: 15%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: orange;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_200
+{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 47.5%;
+    width: 5%; 
+    height: 10%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: orange;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+
+
+/*Pour décorer la partie "service" avec des cercles dèrrière les images */
+#service_forme_101
+{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 23%;
+    width: 9.5%; 
+    height: 20%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgb(0, 230, 200);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_102
+{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 16%;
+    width: 15%; 
+    height: 32%; 
+    border-radius: 130px 130px 130px 130px;
+    background-color: rgb(0, 230, 200);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_103
+{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 55%;
+    width: 15%; 
+    height: 32%; 
+    border-radius: 130px 130px 130px 130px;
+    background-color: rgb(130, 230, 0);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_104
+{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 23%;
+    width: 12%; 
+    height: 25%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgb(250, 150, 0);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_105
+{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 61%;
+    width: 15%; 
+    height: 32%;  
+    border-radius: 130px 130px 130px 130px;
+    background-color: rgb(230, 50, 200);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+#service_forme_106
+{
+    position: absolute;
+    margin-top: 52%;
+    margin-left: 58%;
+    width: 12%; 
+    height: 25%; 
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgb(230, 50, 200);
+    opacity: 0.1;
+    z-index: 0;
+}
+
+
+
+/* Pour décorer la partie service avec des cercles sur vers la gauche */
+#service_forme_107
+{
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_108
+{
+    position: absolute;
+    margin-top: -20.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_109
+{
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_110
+{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_111
+{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_112
+{
+    position: absolute;
+    margin-top: -14.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_113
+{
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_114
+{
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_115
+{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_116
+{
+    position: absolute;
+    margin-top: -8.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_117
+{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_118
+{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_119
+{
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_120
+{
+    position: absolute;
+    margin-top: -20.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_121
+{
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_122
+{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_123
+{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_124
+{
+    position: absolute;
+    margin-top: -14.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_125
+{
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_126
+{
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_127
+{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_128
+{
+    position: absolute;
+    margin-top: -8.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_129
+{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_130
+{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_131
+{
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_132
+{
+    position: absolute;
+    margin-top: -20.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_133
+{
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_134
+{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_135
+{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_136
+{
+    position: absolute;
+    margin-top: -14.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_137
+{
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_138
+{
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_139
+{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_140
+{
+    position: absolute;
+    margin-top: -8.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_141
+{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_142
+{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_143
+{
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_144
+{
+    position: absolute;
+    margin-top: -20.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_145
+{
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_146
+{
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_147
+{
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_148
+{
+    position: absolute;
+    margin-top: -14.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_149
+{
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_150
+{
+    position: absolute;
+    margin-top: -11.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_151
+{
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_152
+{
+    position: absolute;
+    margin-top: -8.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_153
+{
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#service_forme_154
+{
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 200, 250);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+
+
+/* Création de formes qui ressemblent à des lignes */
+#service_forme_partie_1
+{
+    position: relative;
+    width: 2%; 
+    height: 1vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 45%;
+    margin-top: 10%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    z-index: 1;
+}
+
+#service_forme_partie_2
+{
+    position: relative;
+    width: 6.5%; 
+    height: 1vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 1%;
+    margin-top: 10%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+    z-index: 1;
+}
+
+
+
+/* Pour personaliser et modifier la position du titre "Nos services" */
+#h_service_1
+{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 1%;
+    /*color: rgb(255, 150, 20);*/   /*  couleur final */
+    color: rgb(250, 100, 30);
+}
+
+
+
+/* Pour personaliser et modifier la position du paragraphe "Découvrir nos offres..." */
+#p_service_2
+{
+    text-align: center;
+    font-size: 100%;
+    margin-top: -0.5%;
+    color: rgb(125, 125, 125);
+}
+
+
+
+/* Pour créer des formes invisibles qui faciliterons l'alignement des paragraphes */
+.service_position_1
+{
+    position: relative;
+    width: 30%;     /* largeur */
+    height: 46vh;   /* longueur */
+    margin-left: 17%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+    opacity: 1;
+    z-index: 0;
+}
+
+
+
+/* Pour centrer les images dans les formes invisibles */
+#service_forme_center
+{
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+}
+
+
+
+/* pour décorer chaque paragraphe avec un grand cercle identique */
+.service_cercle
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: -20%;
+    width: 110%; 
+    height: 150%; 
+    border-radius: 400px 400px 400px 400px;
+    background-color: rgb(140, 220, 250);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+/* Pour personaliser la police des petits titres des paragraphes */
+#service_h_2
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 16%;
+}
+
+#service_h_3
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 16%;
+}
+
+#service_h_4
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 27%;
+}
+
+#service_h_5
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 26%;
+}
+
+#service_h_6
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+}
+
+#service_h_7
+{
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 29%;
+}
+
+
+
+
+/* Pour modifier l'interligne des paragrahes */
+.service_liste
+{
+    line-height: 2;
+    margin-left: -10%;
+}
+
+
+
+/* Pour ajuster la position des images */
+#service_img_1
+{
+    margin-right: 30%;
+}
+
+#service_img_2
+{
+    margin-right: 30%;
+}
+
+#service_img_3
+{
+    margin-right: 30%;
+}
+
+#service_img_4
+{
+    margin-right: 30%;
+}
+
+
+
+/* Pour personaliser les boutons sous chaque paragraphes */
+.service_bouton
+{
+    position: relative;
+    bottom: 15px;
+    left: 18%;
+    padding: 8px 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(250, 100, 30);
+    background-color: transparent;
+    color: rgb(250, 100, 30);
+}
+
+
+
+
+/* ##############                                         ############## */
+/* ##############  CSS de de la partie "Nos partenaires"  ############## */
+/* ##############                                         ############## */
+
+/* personalisation et ajustement de la position du petit titre "Nos partenaires */
+#h_partenaire
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-weight: 100;
+}
+
+
+
+/* Pour aligner les images des partenaires */
+#partenaire_flex
+{
+    display: flex;
+}
+
+
+
+/* Pour ajuster la position des images des partenaires */
+.partenaire_image
+{
+    position: relative;
+    margin-left: 3%;
+}
+
+#partenaire_image
+{
+    position: relative;
+    margin-left: 19%;
+}
+
+
+
+
+/* ##############                               ############## */
+/* ##############  CSS de de la partie "vidéo"  ############## */
+/* ##############                               ############## */
+
+/* Pour créer la forme qui décorera l'arrière-plan de la vidéo et du paragraphe */
+#video_forme_1
+{
+    position: absolute;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+
+/* Pour ajuster la position et la taille de la video */
+#video
+{
+    position: relative;
+    margin-left: 12%;
+    margin-top: 10%;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1;
+}
+
+
+
+/* Pour personaliser et ajuster la position du titre "Découvrez notre vidéo" */
+#video_h_1
+{
+    position: relative;
+    font-size: 200%;
+    margin-right: 22%;
+    margin-top: 10%;
+    float: right;
+    z-index: 1;
+}
+
+#video_h_2
+{
+    position: relative;
+    font-size: 200%;
+    margin-right: 32.5%;
+    margin-top: -18%;
+    color: rgb(0, 210, 200);
+    float: right;
+    z-index: 1;
+}
+
+
+
+/* Pour créer des formes qui ressemblent à des lignes qui seront placé sous le titre 
+"Découvrez notre vidéo" */
+#video_forme_2
+{
+    position: relative;
+    width: 1.4%; 
+    height: 1vh; 
+    margin-right: 36.8%;
+    margin-top: -14%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    float: right;
+    z-index: 1;
+}
+
+#video_forme_3
+{
+    position: relative;
+    width: 6.5%; 
+    height: 1vh; 
+    margin-right: 29.5%;
+    margin-top: -14%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    float: right;
+    z-index: 1;
+}
+
+
+
+/* Pour personaliser et ajuster le paragraphe "Studiolab bénéficie d'une..." */
+#video_p
+{
+    margin-right: 17.2%;
+    margin-top: -12.5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 20%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: black;
+    float: right;
+}
+
+
+
+
+/* ##############                                       ############## */
+/* ##############  CSS de de la partie "différenciant"  ############## */
+/* ##############                                       ############## */
+
+
+
+/* Pour aligner les formes qui ressemblent à des lignes qui seront au dessus du titre 
+"Nos différenciants" */
+#differenciant_flex_1
+{
+    display: flex;
+    margin-top: 14%;
+}
+
+
+
+/* Création et ajustement des formes qui ressemblent à des lignes et qui seront 
+au dessus du titre "Nos différenciants" */
+#differenciant_forme_1
+{
+    position: relative;
+    width: 1.4%; 
+    height: 1vh; 
+    margin-left: 45%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+}
+
+#differenciant_forme_2
+{
+    position: relative;
+    width: 6.5%; 
+    height: 1vh;
+    margin-left: 1%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+
+
+/* Pour centrer le titre "Nos différenciants" */
+#differenciant_center_1
+{
+    text-align: center;
+    margin-top: 1%;
+}
+
+
+
+/* Pour personaliser et positioner le titre "Nos différenciants" */
+#differenciant_span_1
+{
+    position: relative;
+    font-size: 200%;
+    margin-right: 0%;
+    margin-top: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#differenciant_span_2
+{
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(250, 100, 30);
+}
+
+
+
+/* Pour positioner le paragraphe "Nos méthodes de travail..." */
+#differenciant_center_2
+{
+    text-align: center;
+    margin-top: 1%;
+}
+
+
+
+/* Pour ajuster la position de la suite du paragraphe "...et constructeur du marché..." */
+#differenciant_p_1
+{
+    margin-top: -1%;
+}
+
+
+
+/* Pour aligner les formes, images et statistiques des différenciants */
+#differenciant_flex_2
+{
+    display: flex;
+    margin-top: 4%;
+}
+
+
+
+/* Pour créer les cercles qui décorent les différenciants */
+#differenciant_forme_3
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 18%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+#differenciant_forme_4
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+#differenciant_forme_5
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+#differenciant_forme_6
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+#differenciant_forme_7
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+#differenciant_forme_8
+{
+    position: relative;
+    width: 5.4%; 
+    height: 16vh;
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    padding-right: 2%;
+    border-radius: 100px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+
+
+/* Pour positionner les images qui décorent les différenciants */
+#differenciant_image_1
+{
+    margin-left: -28%;
+    margin-top: -27%;
+}
+
+#differenciant_image_2
+{
+    margin-left: -1%;
+    margin-top: -1%;
+}
+
+#differenciant_image_3
+{
+    margin-left: -28%;
+    margin-top: -27%;
+}
+
+#differenciant_image_4
+{
+    margin-left: -28%;
+    margin-top: -27%;
+}
+
+#differenciant_image_5
+{
+    margin-left: -1%;
+    margin-top: -1%;
+}
+
+#differenciant_image_6
+{
+    margin-left: -28%;
+    margin-top: -27%;
+}
+
+
+/* Pour personaliser et positioner les statistiques des différenciants */
+#differenciant_image_h_1
+{
+    margin-top: -10%;
+    margin-left: 32%;
+    font-size: 200%;
+    color: orange;
+}
+
+#differenciant_image_h_2
+{
+    margin-top: 11%;
+    margin-left: 32%;
+    font-size: 200%;
+    color: orange;
+}
+
+#differenciant_image_h_3
+{
+    margin-top: -10%;
+    margin-left: 22%;
+    font-size: 200%;
+    color: orange;
+}
+
+#differenciant_image_h_4
+{
+    margin-top: -10%;
+    margin-left: 32%;
+    font-size: 200%;
+    color: orange;
+}
+
+#differenciant_image_h_5
+{
+    margin-top: 11%;
+    margin-left: 22%;
+    font-size: 200%;
+    color: orange;
+}
+
+#differenciant_image_h_6
+{
+    margin-top: -10%;
+    margin-left: 42%;
+    font-size: 200%;
+    color: orange;
+}
+
+
+
+/* Pour aligner la 1ère ligne des descriptions des différenciants */
+#differenciant_flex_3
+{
+    display: flex;
+    margin-top: 3.5%;
+}
+
+
+
+/* Pour aligner la 2ème ligne des descriptions des différenciants */
+#differenciant_flex_4
+{
+    display: flex;
+    margin-top: -2.2%;
+}
+
+
+
+/* positionnement des descriptions des différenciants */
+#differenciant_image_p_1
+{
+    margin-left: 16%;
+}
+
+#differenciant_image_p_2
+{
+    margin-left: 2.6%;
+}
+
+#differenciant_image_p_3
+{
+    margin-left: 30.8%;
+}
+
+#differenciant_image_p_4
+{
+    margin-left: 3.2%;
+}
+
+#differenciant_image_p_5
+{
+    margin-left: 5.8%;
+}
+
+#differenciant_image_p_6
+{
+    margin-left: 5%;
+}
+
+#differenciant_image_p_7
+{
+    margin-left: 4.6%;
+}
+
+#differenciant_image_p_8
+{
+    margin-left: 4.6%;
+}
+
+#differenciant_image_p_9
+{
+    margin-left: 4.2%;
+}
+
+
+
+
+/* ##############                                  ############## */
+/* ##############  CSS de de la partie "argument"  ############## */
+/* ##############                                  ############## */
+
+/* Pour aligner au centre le titre "Pourquoi Studiolab Cloud ? */
+#argument_span_center
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+/* Pour personaliser le titre "Pourquoi Studiolab Cloud ?" */
+#argument_span_1
+{
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#argument_span_2
+{
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 210, 200);
+}
+
+
+
+/* Pour positionner la flèche en arrière plan  */
+#argument_fleche
+{
+    margin-left: 50% ;
+    margin-top: 0.5%;
+    transform: rotate(85deg);
+}
+
+
+
+/* Pour créer des cercles qui sert de décoration vers la gauche dans la partie "argument" */
+#argument_forme_3
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_4
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_5
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_6
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_7
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_8
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_9
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_10
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 0.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_11
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_12
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_13
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_14
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_15
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_16
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_17
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_18
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 2%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_19
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_20
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_21
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_22
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_23
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_24
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_25
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_26
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 3.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_27
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_28
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_29
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_30
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_31
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_32
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_33
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_34
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_35
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_36
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_37
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_38
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_39
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_40
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_41
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_42
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 6.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_43
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_44
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_45
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_46
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_47
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_48
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_49
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_50
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 8%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_51
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_52
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_53
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_54
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_55
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_56
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_57
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_58
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 9.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_59
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_60
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_61
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_62
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_63
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_64
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_65
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_66
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 11%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_67
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_68
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_69
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_70
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_71
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_72
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+#argument_forme_73
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_74
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 12.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_75
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_76
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_77
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_78
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_79
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_80
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_81
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_82
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 14%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_83
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_84
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_85
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_86
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_87
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_88
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_89
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_90
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 15.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_91
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_92
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_93
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_94
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_95
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_96
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_97
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_98
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 17%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_99
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_100
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_101
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_102
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_103
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_104
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_105
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_106
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 18.5%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_107
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_108
+{
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_109
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_110
+{
+    position: absolute;
+    margin-top: 4.5%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_111
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_112
+{
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_113
+{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#argument_forme_114
+{
+    position: absolute;
+    margin-top: 10.5%;
+    margin-left: 20%;
+    width: 0.7%; 
+    height: 10px; 
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(75, 255, 0);
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+/* Pour positionner l'image de la partie argument */
+#argument_image_1
+{
+    position: absolute;
+    left: 56.5%;
+    margin-top: -19%;
+}
+
+
+
+/* Pour déplacer le petit titre et le paragraphe vers le centre */
+#argument_droite_1
+{
+    margin-left: 17%;
+}
+
+
+
+/* Pour aligner le cercle et le petit titre "À propos" */
+#argument_flex_1
+{
+    display: flex;
+}
+
+
+
+/* Création du cercle qui sera juste devant le petit titre "À propos" */
+#argument_forme_1
+{
+    position: relative;
+    width: 1%; 
+    height: 1.9vh;
+    margin-top: 0.8%;
+    margin-right: 3%;
+    border-radius: 150px 150px 150px 150px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: orange;
+}
+
+
+
+/* Personalisation et positionnement du petit titre "À propos" */
+#argument_span_3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    margin-bottom: auto;
+    margin-top: 0.3%;
+}
+
+
+
+/* Création d'une ligne qui sera juste en dessous du petit titre "À propos" */
+#argument_forme_2
+{
+    position: relative;
+    width: 17%; 
+    height: 0.5vh; 
+    margin-top: 2.2%; /*  modifie la hauteur de la position de la forme totale */
+    /*border-radius: 50px 50px 50px 50px;*/    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(200, 200, 200);
+}
+
+
+
+/* Ajustement de la position du paragraphe "Partenaire de croissance par..." */
+#argument_p_1
+{
+    background: lightblue;
+    width: 40%;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: black;
+    background-color: transparent;
+}
+
+
+
+/* Positionnement des mots dans la bulle de l'image */
+#argument_p_2
+{
+    position: absolute;
+    left: 73.5%;
+    margin-top: -3%;
+    font-size: 120%;
+}
+
+#argument_p_3
+{
+    position: absolute;
+    left: 74.1%;
+    margin-top: -1.7%;
+    font-size: 120%;
+}
+
+
+
+
+/* ##############                                           ############## */
+/* ##############  CSS de de la partie "vision du digital"  ############## */
+/* ##############                                           ############## */
+
+/* Pour décorer l'arrière plan de la partie "vision du digital" */
+#vision_forme_1
+{
+    position: absolute;
+    margin-top: -13%;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+
+/* Ajustement de la position de l'image */
+#vision_img
+{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 17.5%;
+    z-index: 1;
+}
+
+
+
+/* Pour personaliser et ajuster la position du titre "Notre vision sur le digital" */
+#vision_h_1
+{
+    position: relative;
+    font-size: 200%;
+    margin-left: 63%;
+    margin-top: 12%;
+    z-index: 1;
+}
+
+#vision_h_2
+{
+    color: rgb(0, 210, 200);
+}
+
+
+
+/* Pour créer des formes qui ressemblent à des lignes qui seront placé sous le titre 
+"Notre vision sur le digital" */
+#vision_forme_2
+{
+    position: relative;
+    width: 1.5%; 
+    height: 1vh; 
+    margin-left: 63%;
+    margin-top: -1%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    z-index: 1;
+}
+
+#vision_forme_3
+{
+    position: relative;
+    width: 6.5%; 
+    height: 1vh; 
+    margin-left: 65.5%;
+    margin-top: -0.465%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    z-index: 1;
+}
+
+
+
+/* Pour personaliser et ajuster le paragraphe "La digitalisation du parcours..." */
+#vision_p
+{
+    position: relative;
+    margin-left: 56%;
+    margin-top: 1.5%;
+    background: transparent;
+    padding: 15px;  /* Pour rajouter de l'espace */
+    width: 30%;
+    height: 100px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: black;
+}
+
+
+
+
+/* ##############                                ############## */
+/* ##############  CSS de de la partie "rappel"  ############## */
+/* ##############                                ############## */
+
+/* Ajustement de l'image de la partie "rappel" */
+#rappel_img
+{
+    margin-top: 11%;
+    margin-left: 22%;
+}
+
+
+
+/* Personalisation et ajustement du titre "StudiolabCloud vous rappelle..." */
+#rappel_h_1
+{
+    font-size: 220%;
+    margin-right: 24%;
+    margin-top: 12.5%;
+    line-height: 1.4;
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    color: rgb(0, 0, 0);
+}
+
+#rappel_h_2
+{
+    color: orange;
+}
+
+#rappel_h_3
+{
+    color: rgb(100, 100, 100);
+}
+
+#rappel_b_1
+{
+    font-size: 95%;
+    color: black;
+}
+
+
+
+/* Personalisation et ajustement de la position du champs à remplir pour le numéro de téléphone */
+#rappel_formulaire
+{
+    margin-right: 21.5%;
+    margin-top: -5%;
+    width: 20%;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 30px; 
+    background-size: 20px;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    float: right;
+}
+
+
+
+
+/* ##############                                        ############## */
+/* ##############  CSS de de la partie "abonnez-vous !"  ############## */
+/* ##############                                        ############## */
+
+/* Personalisation de l'arrière-plan de la partie "abonnez-vous !" */
+#abonnez_forme_1
+{
+    position: absolute;
+    margin-top: -2.7%;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+
+
+/* Ajustement de la position de l'image de la partie "abonnez-vous !" */
+#abonnez_img
+{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 7%;
+    z-index: 0;
+}
+
+
+
+/* Ajustement de la position et personalisation du titre "Abonnez-vous à la..." */
+#abonnez_h_1
+{
+    position: relative;
+    font-size: 220%;
+    margin-left: 22%;
+    margin-top: -18.5%;
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
+    /*float: left;*/
+    color: rgb(0, 0, 0);
+    float: left;
+    z-index: 1;
+}
+
+#abonnez_h_2
+{
+    color: orange;
+}
+
+#abonnez_h_3
+{
+    color: rgb(100, 100, 100);
+}
+
+#abonnez_b_1
+{
+    font-size: 95%;
+    color: black;
+}
+
+
+
+/* Ajustement de la position et personalisation du formulaire d'e-mail */
+#abonnez_formulaire
+{
+    position: relative;
+    margin-left: 21.5%;
+    margin-top: -7%;
+    width: 20%;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 30px; 
+    background-size: 20px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    float: left;
+    z-index: 1;
+}
+
+
+
+/* Ajustement de la position de la flèche en arrière plan */
+#abonnez_fleche
+{
+    position: absolute;
+    margin-left: 9.5% ;
+    margin-top: -17%;
+    transform: rotate(55deg);
+}
+
+
+
+#abonnez_forme_2
+{
+    position: absolute;
+    margin-top: -1.4%;
+    opacity: 1;
+    z-index: 0;
+}
+
+
+
+
+/* ====================================================================================== */
+/* ||                                       footer                                     || */
+/* ====================================================================================== */
+
+
+
+/* ##############                              ############## */
+/* ##############  CSS de de la partie "logo"  ############## */
+/* ##############                              ############## */
+
+/* Ajustement de la position du logo de Studiolab au centre */
+#footer_img_1
+{
+    margin-top: 1%;
+    margin-left: 43.5%;
+}
+
+
+
+
+/* ##############                                    ############## */
+/* ##############  CSS de de la partie "paragraphe"  ############## */
+/* ##############                                    ############## */
+
+/* Pour personaliser le titre du 1er paragraphe */
+#footer_h_1
+{
+    font-size: 100%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    /*line-height: 1.5;*/
+    font-family:Arial, Helvetica, sans-serif;
+    /*float: left;*/
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* Pour créer des formes qui ressemblent à des lignes qui seront placé sous le titre 
+"À propos de nous!" */
+#footer_forme_1
+{
+    width: 1.5%; 
+    height: 0.7vh; 
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    display: inline-block;
+}
+
+#footer_forme_2
+{
+    width: 5.5%; 
+    height: 0.7vh; 
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(250, 150, 0);
+    display: inline-block;
+}
+
+
+
+/* Pour personaliser le paragraphe de gauche */
+#footer_p_1
+{
+    margin-left: 10%;
+    margin-top: 0%;
+    background: /*lightblue*/ transparent;
+    padding: 0px;  /* Pour rajouter de l'espace */
+    width: 35%;
+    height: 130px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: rgb(160, 160, 160);
+}
+
+
+
+/* Pour personaliser le titre du 2ème paragraphe */
+#footer_h_2
+{
+    font-size: 100%;
+    margin-right: 22%;
+    margin-top: 0%;
+    /*line-height: 1.5;*/
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    float: right;
+}
+
+
+
+/* Pour créer des formes qui ressemblent à des lignes qui seront placé sous le titre 
+"Nos services" */
+#footer_forme_3
+{
+    width: 1.5%; 
+    height: 0.7vh; 
+    margin-right: -1.5%;
+    margin-top: 2.5%;
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 200, 255);
+    float: right;
+}
+
+#footer_forme_4
+{
+    width: 5.5%; 
+    height: 0.7vh; 
+    margin-right: -7.7%;
+    margin-top: 2.5%;
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 200, 255);
+    float: right;
+}
+
+
+
+/* Pour positioner la liste à droite */
+#footer_ul_1
+{
+    float: right;
+    margin-right: -12%;
+    margin-top: 4%;
+    list-style-type: none;
+    line-height: 1.7;
+    color: rgb(160, 160, 160);
+}
+
+
+
+/* Pour personaliser les puces sous formes de triangle */
+#footer_ul_2
+{
+    margin-top: 4.5%;
+    margin-right: -2.5%;
+    width: 0; /* Largeur nulle */
+    height: 0; /* Hauteur nulle */
+    border-style: solid; /* Bordure pleine */
+    border-width: 7px 7px; /* longueur (y), largeur (x) */
+    border-color: transparent transparent transparent orange; /* Couleurs des côtés d'un carré : haut, droite, bas, gauche */
+    float: right;
+}
+
+#footer_ul_3
+{
+    margin-top: 6.3%;
+    margin-right: -2.5%;
+    width: 0; /* Largeur nulle */
+    height: 0; /* Hauteur nulle */
+    border-style: solid; /* Bordure pleine */
+    border-width: 7px 7px; /* longueur (y), largeur (x) */
+    border-color: transparent transparent transparent orange; /* Couleurs des côtés d'un carré : haut, droite, bas, gauche */
+    float: right;
+}
+
+#footer_ul_4
+{
+    margin-top: 8.1%;
+    margin-right: -2.5%;
+    width: 0; /* Largeur nulle */
+    height: 0; /* Hauteur nulle */
+    border-style: solid; /* Bordure pleine */
+    border-width: 7px 7px; /* longueur (y), largeur (x) */
+    border-color: transparent transparent transparent orange; /* Couleurs des côtés d'un carré : haut, droite, bas, gauche */
+    float: right;
+}
+
+#footer_ul_5
+{
+    margin-top: 9.9%;
+    margin-right: -2.5%;
+    width: 0; /* Largeur nulle */
+    height: 0; /* Hauteur nulle */
+    border-style: solid; /* Bordure pleine */
+    border-width: 7px 7px; /* longueur (y), largeur (x) */
+    border-color: transparent transparent transparent orange; /* Couleurs des côtés d'un carré : haut, droite, bas, gauche */
+    float: right;
+}
+
+
+
+/* Pour aligner numéros et adresses entre elles */
+#footer_flex_1
+{
+    padding-top: 3%;
+    margin-left: 10%;
+    display: flex;
+}
+
+
+
+/* Pour ajuster la position des dessins */
+#footer_dessin_maison
+{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+
+
+/* Pour ajuster la position des images de téléphones et d'adresses */
+#footer_img_2
+{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: -0.5%;
+    opacity: 1;
+}
+
+#footer_img_3
+{
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 0%;
+    opacity: 1;
+}
+
+#footer_img_4
+{
+    margin-left: 5%;
+    margin-top: 0%;
+    opacity: 1;
+}
+
+#footer_img_5
+{
+    margin-left: 5%;
+    margin-top: 0%;
+    opacity: 1;
+}
+
+
+
+/* Pour ajuster la position des numéros de téléphones et adresses */
+#footer_p_2
+{
+    margin-left: 4%;
+    margin-top: 0.6%;
+    color: rgb(230, 230, 230);
+    /*color: white;*/
+} 
+
+#footer_p_3
+{
+    margin-left: 9.5%;
+    margin-top: 0.6%;
+    color: rgb(230, 230, 230);
+    /*color: white;*/
+}
+
+#footer_p_4
+{
+    margin-left: 1%;
+    margin-top: 0.6%;
+    color: rgb(230, 230, 230);
+    /*color: white;*/
+}
+
+#footer_p_5
+{
+    margin-left: 1%;
+    margin-top: 0.6%;
+    color: rgb(230, 230, 230);
+    /*color: white;*/
+}
+
+#footer_p_6
+{
+    margin-left: 65.2%;
+    margin-top: -1%;
+    color: rgb(230, 230, 230);
+    /*color: white;*/
+}
+
+
+
+/* Positionnement et personnalisationn de la dèrnière ligne de footer */
+#footer_flex_2
+{
+    padding-top: 3%;
+    margin-left: 0%;
+    display: flex;
+}
+
+#footer_p_7
+{
+    margin-left: 28%;
+    margin-top: -1%;
+    padding-bottom: 5%;
+    color: orange;
+}
+
+#footer_p_8
+{
+    margin-left: 5%;
+    margin-top: -1%;
+    color: orange;
+}
+
+
+
+/* positionnement et personalisation du lien cliquable */
+#footer_a
+{
+    margin-left: 5%;
+    margin-top: -1%;
+    color: orange;
+}
+  /*<svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <linearGradient id="Gradient1" x1="0%" x2="0%" y1="0%" y2="100%">
+    <stop offset="0%" stop-color="red" />
+    <stop offset="50%" stop-color="black" stop-opacity="0.4" />
+    <stop offset="100%" stop-color="blue" />
+  </linearGradient>
+
+<rect
+  x="10"
+  y="120"
+  rx="15"
+  ry="15"
+  width="100"
+  height="100"
+  fill="url(#Gradient1)" 
+/>
+
+</svg>*/

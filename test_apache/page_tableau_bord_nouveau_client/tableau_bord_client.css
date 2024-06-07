@@ -1,0 +1,1104 @@
+/*==================================================================================================================================*/
+/*||                       HTML de la page du tableau de bord pour les clients de StudiolabCloud (partie droite)                  ||*/
+/*==================================================================================================================================*/
+
+
+
+/* ##############               ############## */
+/* ##############  CSS général  ############## */
+/* ##############               ############## */
+
+header
+{
+    background-color: rgb(240, 150, 0);
+    /*background-color: transparent;*/
+    width: 100%;
+}
+
+
+
+main
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;    /* largeur */
+    height: 100%;   /* longueur */
+}
+
+
+
+footer
+{
+    /*margin-top: 4%;*/
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+
+
+/* ##############                            ############## */
+/* ##############  Pour définir les polices  ############## */
+/* ##############                            ############## */
+
+p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+
+input
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* ====================================================================================== */
+/* ||                                        header                                    || */
+/* ====================================================================================== */
+
+/* ##############                 ############## */
+/* ##############  CSS du header  ############## */
+/* ##############                 ############## */
+
+/* Pour positionner l'image de profil */
+#header_img_1
+{
+    position: absolute;
+    left: 87%;
+    top: 4%;
+}
+
+
+
+/* Pour aligner l'en-tête */
+#header_flex_1
+{
+    display: flex;
+}
+
+
+
+/* Pour personaliser et positionner les boutons */
+#header_bouton_1
+{
+    bottom: 0px;
+    margin-left: 160%;
+    padding: 10px 40px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+#header_bouton_2
+{
+    bottom: 0px;
+    margin-left: 570%;
+    padding: 10px 18px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+#header_bouton_3
+{
+    bottom: 0px;
+    margin-left: 335%;
+    padding: 10px 18px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+#header_barre_recherche
+{
+    position: relative;
+    margin-left: 35%;
+    width: 13%;
+    height: 34px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 50px; 
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-color: white;
+    color: black;
+    /*border: none;*/
+}
+
+#header_bouton_de_recherche
+{
+    position: absolute;
+    margin-left: 35.6%;
+    margin-top: 0.2%;
+    z-index: 1;
+}
+
+
+
+
+
+/* ====================================================================================== */
+/* ||                                        main                                      || */
+/* ====================================================================================== */
+
+/* ##############                                ############## */
+/* ##############  CSS de la partie "bienvenue"  ############## */
+/* ##############                                ############## */
+
+/* Pour positionner le titre de bienvenue */
+#bienvenue_h_1
+{
+    margin-left: 3%;
+    color: rgb(250, 50, 30);
+}
+
+
+
+/* Pour créer des formes de barres placer sous le titre */
+#bienvenue_forme_1
+{
+    position: relative;
+    width: 1.75%; 
+    height: 0.6vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 4%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+}
+
+#bienvenue_forme_2
+{
+    position: relative;
+    width: 7%; 
+    height: 0.5vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 7%;
+    margin-top: -0.25%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
+}
+
+
+
+
+/* ##############                                    ############## */
+/* ##############  CSS de la partie "recapitulatif"  ############## */
+/* ##############                                    ############## */
+
+/* Pour centrer des éléments */
+.center_1
+{
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center;     /* Centrer verticalement */
+}
+
+/* Pour aligner les formes */
+.recapitulatif_flex_1
+{
+    display: flex;
+}
+
+/* pour positionner les images dans les boutons */
+.recapitulatif_bouton_flex
+{
+    display: flex;
+    
+}
+
+/* pour créer les formes */
+#recapitulatif_forme_1
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#recapitulatif_forme_2
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#recapitulatif_forme_3
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+
+
+/* Pour aligner les formes invisibles */
+#recapitulatif_forme_invisible_1
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#recapitulatif_forme_invisible_2
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+}
+
+#recapitulatif_forme_invisible_3
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+}
+
+
+
+/* Pour personnaliser le contenue de la 1ère forme */
+#recapitulatif_h_1
+{
+    margin-top: -0%;
+}
+
+#recapitulatif_forme_4
+{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 140px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#recapitulatif_p_1
+{
+    margin-top: 2%;
+}
+
+#recapitulatif_p_2
+{
+    margin-top: 0%;
+}
+
+#recapitulatif_bouton_1
+{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 30px;
+    /*background-image: url('test_patate.jpeg'); 
+    background-size: 20px;
+    background-position: left center; 
+    background-repeat: no-repeat;*/
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#recapitulatif_img_1
+{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+    z-index: 1;
+}
+
+
+
+/* Pour personnaliser le contenue de la 2ème forme */
+#recapitulatif_h_2
+{
+    margin-top: 0%;
+}
+
+#recapitulatif_bouton_2
+{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 4%;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-right: 30px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#recapitulatif_img_2
+{
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 0.5%;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+#recapitulatif_p_3
+{
+    margin-top: 0%;
+    font-size: 130%;
+}
+
+#recapitulatif_p_4
+{
+    margin-top: 0%;
+    margin-left: 10%;
+    font-size: 80%;
+}
+
+#recapitulatif_img_3
+{
+    position: absolute;
+    margin-top: 1%;
+}
+
+#recapitulatif_bouton_3
+{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 30px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#recapitulatif_img_4
+{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+    z-index: 1;
+}
+
+
+
+
+/* Pour personnaliser le contenue de la 3ème forme */
+.recapitulatif_right
+{
+    margin-right: 10%;
+}
+
+#recapitulatif_img_5
+{
+    position: absolute;
+    margin-top: 9%;
+    opacity: 0.5;
+}
+
+#recapitulatif_h_3
+{
+    margin-left: 46%;
+    margin-top: 8%;
+}
+
+#recapitulatif_p_5
+{
+    margin-top: -5%;
+    margin-left: 46%;
+    background: lightcoral;
+    padding: 0px;  /* Pour rajouter de l'espace */
+    width: 50%;
+    height: 80px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#recapitulatif_p_6
+{
+    margin-top: -5%;
+    margin-left: 46%;
+    background: lightcoral;
+    padding: 0px;  /* Pour rajouter de l'espace */
+    width: 43%;
+    height: 40px;
+    /*overflow: scroll;*/   /* Pour ajouter une barre déroulante */
+    /*border: 1px solid #ccc;*/
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+#recapitulatif_img_6
+{
+    position: absolute;
+    margin-top: -4%;
+    margin-left: 90%;
+    opacity: 0.5;
+}
+
+
+
+
+/* ##############                                   ############## */
+/* ##############  CSS de la partie "Vos services"  ############## */
+/* ##############                                   ############## */
+
+/* Pour ajuster la position du titre */
+#v_service_h_1
+{
+    margin-left: 3%;
+}
+
+/* Pour aligner les formes */
+.v_service_flex_1
+{
+    display: flex;
+}
+
+
+/* Création de forme */
+#v_service_forme_1
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#v_service_forme_2
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#v_service_forme_3
+{
+    position: relative;
+    width: 26%; 
+    height: 31vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+/* Création de forme invisible */
+#v_service_forme_invisible_1
+{
+    position: relative;
+    width: 26%; 
+    height: 67vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#v_service_forme_invisible_2
+{
+    position: relative;
+    width: 26%; 
+    height: 67vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#v_service_forme_invisible_3
+{
+    position: relative;
+    width: 26%; 
+    height: 67vh; 
+    margin-left: 3%;
+    margin-top: -14.4%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+
+
+
+/* Personnalisation du contenue de la 1ère forme */
+#v_service_forme_4
+{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 140px;
+    height: 27px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#v_service_h_2
+{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+#v_service_forme_5
+{
+    position: relative;
+    margin-top: -3%;
+    margin-left: 10%;
+    padding-top: 0%;
+    width: 180px;
+    height: 27px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#v_service_h_3
+{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+#v_service_forme_6
+{
+    position: absolute;
+    width: 65%; 
+    height: 1.5vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 10%;
+    margin-top: -3%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(0, 210, 200);
+    z-index: 2;
+}
+
+#v_service_forme_7
+{
+    position: absolute;
+    width: 30%; 
+    height: 1.5vh; 
+    /*margin-right: auto;*/
+    /*margin-left: 20.3%;*/
+    margin-left: 0%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: rgb(210, 0, 200);
+    z-index: 1;
+}
+
+#v_service_p_3
+{
+    position: relative;
+    margin-left: 80%;
+    margin-top: -5%;
+}
+
+#v_service_h_4
+{
+    margin-left: 10%;
+    margin-top: -3%;
+}
+
+#v_service_forme_8
+{
+    position: relative;
+    margin-top: -3%;
+    margin-left: 10%;
+    padding-top: 0.5%;
+    width: 180px;
+    height: 27px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#v_service_p_4
+{
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+#v_service_img_1
+{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#v_service_img_2
+{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -7%;
+}
+
+#v_service_h_5
+{
+    margin-left: 10%;
+}
+
+#v_service_forme_9
+{
+    position: relative;
+    margin-top: -3%;
+    margin-left: 10%;
+    padding-top: 0.5%;
+    width: 330px;
+    height: 27px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#v_service_p_5
+{
+    margin-left: 3%;
+    margin-top: 0%;
+}
+
+#v_service_img_3
+{
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 0.75%;
+}
+
+#v_service_forme_10
+{
+    position: relative;
+    margin-top: -3%;
+    margin-left: 10%;
+    padding-top: 0%;
+    width: 240px;
+    height: 27px;
+    border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    padding-left: 0px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+#v_service_img_4
+{
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -6%;
+}
+
+#v_service_p_7
+{
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+
+
+/* ##############                              ############## */
+/* ##############  CSS de la partie "service"  ############## */
+/* ##############                              ############## */
+
+/* positionnement du titre */
+#service_h_1
+{
+    margin-left: 3%;
+}
+
+/* positionnement du paragraphe */
+#service_p_1
+{
+    margin-left: 3%;
+}
+
+/* Pour aligner les formes */
+#service_flex_1
+{
+    display: flex;
+}
+
+#service_flex_2
+{
+    display: flex;
+}
+
+/* pour créer les formes */
+#service_forme_1
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#service_forme_2
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#service_forme_3
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+#service_forme_4
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: 0%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightblue;
+}
+
+
+
+
+/* Pour aligner les formes invisibles */
+#service_forme_invisible_1
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: -24.6%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#service_forme_invisible_2
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: -24.6%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#service_forme_invisible_3
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: -24.6%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+#service_forme_invisible_4
+{
+    position: relative;
+    width: 15%; 
+    height: 53vh; 
+    margin-left: 3%;
+    margin-top: -24.6%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: lightcoral;
+}
+
+
+
+/* Pour centrer les images */
+.center
+{
+    text-align: center;
+}
+
+
+
+/* Pour personaliser le contenue dans la 1ère forme invisible */
+#service_h_2
+{
+    margin-top: -10%;
+}
+
+#service_p_2
+{
+    margin-top: -1%;
+    color: rgb(100, 100, 100);
+}
+
+.service_bouton_1
+{
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+
+
+/* Pour personaliser le contenue dans la 2ème forme invisible */
+#service_h_3
+{
+    margin-top: -10%;
+}
+
+#service_p_3
+{
+    margin-top: -1%;
+    color: rgb(100, 100, 100);
+}
+
+#service_p_4
+{
+    margin-top: -5%;
+    color: rgb(100, 100, 100);
+}
+
+.service_bouton_1
+{
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+
+
+/* Pour personaliser le contenue dans la 3ème forme invisible */
+#service_p_3
+{
+    margin-top: 0%;
+    color: rgb(100, 100, 100);
+}
+
+#service_p_4
+{
+    margin-top: -5%;
+    color: rgb(100, 100, 100);
+}
+
+#service_bouton_2
+{
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+
+
+/* Pour personaliser le contenue dans la 4ème forme invisible */
+#service_p_4
+{
+    margin-top: 0%;
+    color: rgb(100, 100, 100);
+}
+
+#service_p_5
+{
+    margin-top: -5%;
+    color: rgb(100, 100, 100);
+}
+
+#service_bouton_3
+{
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:black;
+}
+
+
+
+
+/* ======================================================================================== */
+/* ||                                        footer                                      || */
+/* ======================================================================================== */
+
+/* ##############                           ############## */
+/* ##############  CSS de la partie "lien"  ############## */
+/* ##############                           ############## */
+
+/* pour positionner le lien */
+#lien_h_1
+{
+    margin-left: 3%;
+}
+
+/* pour aligner les boutons */
+#lien_flex_1
+{
+    display: flex;
+    margin-left: 3%;
+}
+
+
+/* pour personaliser les boutons */
+#lien_bouton_1
+{
+    bottom: 0px;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 100, 0, 0.3); /* dèrnière valeur = opacité */
+    color:rgb(225, 100, 0);
+}
+
+#lien_bouton_2
+{
+    bottom: 0px;
+    margin-left: 15%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 100, 255, 0.2); /* dèrnière valeur = opacité */
+    color: rgb(0, 100, 255);
+}
+
+#lien_bouton_3
+{
+    bottom: 0px;
+    margin-left: 19%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 200, 125, 0.2); /* dèrnière valeur = opacité */
+    color:rgb(0, 200, 125);
+}
+
+#lien_bouton_4
+{
+    bottom: 0px;
+    margin-left: 30%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(100, 255, 0, 0.2); /* dèrnière valeur = opacité */
+    color: rgb(100, 205, 0);
+}
+
+#lien_bouton_5
+{
+    bottom: 0px;
+    margin-left: 60%;
+    margin-top: 0%;
+    padding: 10px 45px; /* largeur, longueur*/
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(100, 100, 100, 0.2); /* dèrnière valeur = opacité */
+    color:black;
+}

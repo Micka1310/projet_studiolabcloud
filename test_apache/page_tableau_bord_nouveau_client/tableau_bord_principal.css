@@ -1,0 +1,220 @@
+/*===========================================================================================================================================*/
+/*||                       HTML de la page du tableau de bord pour les nouveaux clients de StudiolabCloud (partie gauche)                  ||*/
+/*===========================================================================================================================================*/
+
+
+
+/* ##############               ############## */
+/* ##############  CSS général  ############## */
+/* ##############               ############## */
+
+header
+{
+    background-color: rgb(240, 150, 0);
+    /*background-color: transparent;*/
+    width: 0%;
+}
+
+
+
+main
+{
+    background-color: rgb(255, 255, 255);
+    width: 100%;    /* largeur */
+    height: 100%;   /* longueur */
+}
+
+
+
+footer
+{
+    /*margin-top: 4%;*/
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+
+
+
+/* ##############                            ############## */
+/* ##############  Pour définir les polices  ############## */
+/* ##############                            ############## */
+
+p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+}
+
+input
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* ==================================================================================== */
+/* ||                                        main                                    || */
+/* ==================================================================================== */
+
+
+
+/* ##############               ############## */
+/* ##############  CSS du main  ############## */
+/* ##############               ############## */
+
+/* pour centrer le logo de studiolab */
+.center
+{
+    text-align: center;
+}
+
+
+
+/* pour que la partie "gauche" soit positionner à gauche de la page */
+#gauche_forme_1
+{
+    /*float: left;*/
+    position: fixed;
+    width: 18%;
+    height: 664px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+    margin-top: -0.6%;
+}
+
+
+
+/* Pour positionner les éléments à l'intérieur de la partie gauche */
+#gauche_droite
+{
+    margin-left: 12%;
+}
+
+#gauche_a_1
+{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 22%;
+    margin-left: 1%;
+}
+
+#gauche_img_2
+{
+    margin-top: 25%;
+}
+
+#gauche_a_2
+{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 6%;
+    margin-left: 1%;
+}
+
+#gauche_img_3
+{
+    margin-top: 4%;
+}
+
+#gauche_img_4
+{
+    margin-top: 4%;
+}
+
+#gauche_span_1
+{
+    color: rgb(250, 100, 30);
+}
+
+#gauche_img_5
+{
+    margin-top: -5%;
+}
+
+#gauche_img_6
+{
+    margin-top: 4%;
+}
+
+#gauche_img_7
+{
+    margin-top: 4%;
+}
+
+#gauche_img_8
+{
+    margin-top: 4%;
+}
+
+#gauche_a_8
+{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 6%;
+    margin-left: 1%;
+}
+
+#gauche_img_9
+{
+    margin-top: 4%;
+}
+
+
+
+#gauche_span_9
+{
+    color: rgb(255, 0, 30);
+}
+
+
+
+/* Pour positionner la partie droite */
+#droite_droite
+{
+    position: fixed;
+    top: 0%;
+    left: 21%;
+    border:none;
+}
