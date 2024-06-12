@@ -29,11 +29,7 @@
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="#">{{config('app.name')}}</a>   <!-- indique la variable "name" dans le fichier "app.name" du dossier "config"-->
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" href="{{route('accueil')}}">{{config('app.name')}}</a>   <!-- indique la variable "name" dans le fichier "app.name" du dossier "config"-->
 
                 <div class="collapse navbar-collapse" id="navbarText">
 
@@ -47,14 +43,14 @@
                         @auth
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('accueil')}}">Déconnexion</a>
+                                <a class="nav-link" href="{{route('deconnexion')}}" method="GET">Déconnexion</a>
                             </li>
 
                         <!-- Sinon fait apparaitre ce lien -->
                         @else
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('authentification')}}">Se connecter</a>
+                                <a class="nav-link" href="{{route('authentification')}}" method="GET">Se connecter</a>
                             </li>
 
                         @endauth
@@ -66,8 +62,10 @@
                         <!-- Fait apparaître le nom et prénom de l'utilisateur -->
                         @auth
 
-                            {{auth()->user()->nom}}
-                            {{auth()->user()->prenom}}
+                            <h1>
+                                {{auth()->user()->nom}}
+                                {{auth()->user()->prenom}}
+                            </h1>
 
                         @endauth
 

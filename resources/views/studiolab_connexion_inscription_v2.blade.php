@@ -19,7 +19,7 @@
     <meta name="date_de_mise_a_jour" content="11/06/2024">
 
     <!-- Titre de l'onglet -->
-    <title>Studiolab cloud | connexion</title>
+    <title>Studiolab cloud | authentification</title>
 
     <!-- Lien CSS et JavaScript -->
     @vite(['resources/css/studiolab_connexion_inscription_v2.css', 'resources/js/app.js'])
@@ -154,7 +154,9 @@
                     <h3 id="h_inscription_2">StudiolabCloud</h4>
 
                     <!-- Création du formulaire d'inscription -->
-                    <form action="{{route('inscription')}}" method="POST">
+                    <form action="inscription" method="POST">
+
+                        @csrf
 
                         <!-- champ de texte à remplir -->
 
@@ -182,7 +184,7 @@
                         <div id="inscription_mdp_1">
 
                             <img id="img_mdp_1" height="25px" src="{{ asset('build/images/authentification/test_patate.jpeg') }}" alt="image de clé">
-                            <input id="inscription_mdp_2" type="password" name="mdp" placeholder="Mot de passe">
+                            <input id="inscription_mdp_2" type="password" name="password" placeholder="Mot de passe">
                             <img id="img_mdp_2" height="25px" src="{{ asset('build/images/authentification/test_patate.jpeg') }}" alt="image d'oeil barré">
 
                         </div>

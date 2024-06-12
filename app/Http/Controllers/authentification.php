@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Http\Request;
 
 use App\Models\User;
@@ -34,7 +35,7 @@ class authentification extends Controller
         ]);
 
         // Extrait les informations d'identification de la requête
-        $credentials=$request->only('nom', 'prenom', 'email', 'password');
+        $credentials=$request->only('email', 'password');
 
         // Essayer d'authentifier l'utilisateur
         if(Auth::attempt($credentials)){
@@ -52,12 +53,12 @@ class authentification extends Controller
         $request->validate([
             'nom'=>'required',
             'prenom'=>'required',
-            'email'=> 'required|email|unique:utilisateur', // "|email" indique de vérifier si c'est bien un email. Par exemple de type ".com"
+            'email'=> 'required|email|unique:users', // "|email" indique de vérifier si c'est bien un email. Par exemple de type ".com"
             'password'=>'required'
         ]);
 
         // Pour créer le nouvel utilisateur dans la base de donnée
-        $data['nom']=$request->name;
+        $data['nom']=$request->nom;
         $data['prenom']=$request->prenom;
         $data['email']=$request->email;
         $data['password']=Hash::make($request->password);   // On crypte le mdp
@@ -70,7 +71,15 @@ class authentification extends Controller
         }
 
         // sinon, le compte utilisateur à été crée avec succès et on renvoie vers la page de connexion
-        return redirect(route('login'))->with("success", "Connexion réussis !");
+        return redirect(route('authentification'))->with("success", "Création de votre compte avec succès !");
+    }
+
+
+    function deconnexion()
+    {
+        Session::flush();   // supprime la session (les données tempporaires) lié à l'utilisateur
+        Auth::logout(); // deconnecte l'utilisateur
+        return redirect(route('accueil'));
     }
 
 }
