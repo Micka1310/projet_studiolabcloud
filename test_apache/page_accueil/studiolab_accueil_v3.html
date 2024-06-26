@@ -21,9 +21,8 @@
     <!-- Titre de l'onglet -->
     <title>Studiolab cloud | accueil</title>
 
-    <!-- Lien CSS et JavaScript -->
+    <!-- Lien CSS -->
     <link href="studiolab_accueil_v3.css" rel="stylesheet" type="text/css" media="">
-    <script src="prosit2js/prosit2.js"></script>
 
 </head>
 
@@ -143,6 +142,7 @@
 
         </svg>
 
+
         <!-- forme de cercle à gauche -->
         <div id="serveur_forme_3"></div>
         <div id="serveur_forme_4"></div>
@@ -237,7 +237,7 @@
         <!-- première partie -->
         <section>
 
-            <!-- lien de navigation -->
+            <!-- lien de de la première partie -->
             <nav>
 
                 <!-- Pour aligner à droite -->
@@ -258,12 +258,11 @@
                                 <a id="header_lien_1" href="">Actualités</a>
 
                                 <!-- barre et bouton de recherche ici -->
-                                <input id="header_bouton_de_recherche" type="image" height="20px" src="test_patate.jpeg" alt="image de téléphone fixe">
-                                <input id="header_barre_de_recherche" type="text" placeholder="Rechercher">
+                                <input id="header_bouton_de_recherche_1" type="image" height="20px" src="test_patate.jpeg" alt="image de téléphone fixe">
+                                <input id="header_barre_de_recherche_1" type="text" placeholder="Rechercher">
                                 
                                 <!-- image du tel fixe ici -->
                                 <img id="header_image_tel_2" height="20px" src="test_patate.jpeg" alt="image de téléphone fixe"/>
-
                                 <span id="header_position_2">01 84 25 29 92</span>
 
                                 <!-- image du tel portable ici -->
@@ -278,6 +277,93 @@
 
                 </div>
 
+
+                <!-- Si l'écran est trop petit (1020px de largeur)-->
+
+                <!-- Pour aligner à droite -->
+                <div class="header_droite_3">
+
+                    <!-- Pour créer la forme qui décore les liens de la 1ère partie -->
+                    <div id="header_forme_partie_10">
+
+                        <div class="header_flex_2">
+
+                            <!-- Pour la barre de recherche -->
+                            <form action="/rechercher" method="get">
+
+                                <!-- barre et bouton de recherche ici -->
+                                <input id="header_bouton_de_recherche_2" type="image" height="20px" src="test_patate.jpeg" alt="image de téléphone fixe">
+                                <input id="header_barre_de_recherche_2" type="text" placeholder="Rechercher">
+
+                            </form>
+                        
+                        </div>
+                        
+                        <div class="header_flex_3">
+
+                            <!-- Pour la barre de recherche -->
+                            <form action="/rechercher" method="get">
+
+                                <a id="header_lien_17" href="">Mon compte client</a>
+                                <a id="header_lien_16" href="">Contact commercial</a>
+                                <a id="header_lien_15" href="">Webmail</a>
+                                <a id="header_lien_14" href="">Assistance</a>
+                                <a id="header_lien_13" href="">Actualités</a>
+                            
+                            </form>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Si l'écran est trop petit (650px de largeur)-->
+
+                <!-- Pour aligner à droite -->
+                <div class="header_droite_4">
+
+                    <!-- Pour créer la forme qui décore les liens de la 1ère partie -->
+                    <div id="header_forme_partie_10">
+
+                        <div class="header_flex_2">
+
+                            <!-- Pour la barre de recherche -->
+                            <form action="/rechercher" method="get">
+
+                                <!-- barre et bouton de recherche ici -->
+                                <input id="header_bouton_de_recherche_2" type="image" height="20px" src="test_patate.jpeg" alt="image de téléphone fixe">
+                                <input id="header_barre_de_recherche_2" type="text" placeholder="Rechercher">
+
+                            </form>
+                        
+                        </div>
+                        
+                        <div class="header_flex_3">
+
+                            <!-- Pour la barre de recherche -->
+                            <form action="/rechercher" method="get">
+
+                                <a id="header_lien_17" href="">Mon compte client</a>
+                                <a id="header_lien_16" href="">Contact commercial</a>
+                            
+                            </form>
+                        
+                        </div>
+
+                        <div class="header_flex_4">
+
+                            <a id="header_lien_15" href="">Webmail</a>
+                            <a id="header_lien_14" href="">Assistance</a>
+                            <a id="header_lien_13" href="">Actualités</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </nav>
         
         </section>
@@ -285,112 +371,203 @@
         <!-- deuxième partie -->
         <section>
 
-            <!-- lien de navigation sans quitter la page -->
+            <!-- liens de la 2ème partie -->
             <nav>
 
-                <!-- Pour déplacer vers la droite -->
-                <div class="header_droite_2">
-        
-                    <!-- liens de la 2ème partie -->
-                    <div>
-                        
-                        <a id="header_lien_12" href="">Machines virtuelles</a>
-                        <a id="header_lien_11" href="">Hébergement Cloud</a>
-                        <a id="header_lien_10" href="">Stockage</a>
-                        <a id="header_lien_9" href="">Télécom</a>
-                        <a id="header_lien_8" href="">Wallet</a>
-                        <a id="header_lien_7" href="">Entreprise</a>
-                        <a id="header_lien_6" href="">À propos</a>
+                <!-- Cache cette partie si l'écran est trop petit -->
+                <div class="header_lien_display_1">
+
+                    <div class="header_lien_flex_1">
+
+                        <div id="header_lien_aligne_12"> 
+
+                            <a id="header_lien_12" href="">Machines virtuelles</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                            <div id="header_forme_partie_9"></div>
+                                
+                        </div>
+                            
+                        <div id="header_lien_aligne_11"> 
+
+                            <a id="header_lien_11" href="">Hébergement Cloud</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien --> 
+                            <div id="header_forme_partie_8"></div>
+                                
+                        </div>
+                            
+                        <div id="header_lien_aligne_10"> 
+
+                            <a id="header_lien_10" href="">Stockage</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->   
+                            <div id="header_forme_partie_7"></div>
+
+                        </div>
+                            
+                        <div id="header_lien_aligne_9"> 
+
+                            <a id="header_lien_9" href="">Télécom</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->        
+                            <div id="header_forme_partie_6"></div>
+
+                        </div>
+
+                        <div id="header_lien_aligne_8"> 
+
+                            <a id="header_lien_8" href="">Wallet</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->                               
+                            <div id="header_forme_partie_5"></div>        
+
+                        </div>
+
+                        <div id="header_lien_aligne_7"> 
+
+                            <a id="header_lien_7" href="">Entreprise</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->        
+                            <div id="header_forme_partie_4"></div>
+                                
+
+                        </div>
+                    
+                        <div id="header_lien_aligne_6">    
+                            
+                            <a id="header_lien_6" href="">À propos</a>
+
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->    
+                            <div id="header_forme_partie_3"></div>        
+
+                        </div>
 
                     </div>
 
+                </div>
+
+
+                <!-- Cache cette partie si l'écran est trop grand -->
+                <div class="header_lien_display_2">
+
+                    <div class="header_lien_flex_2">
+    
+                        <div id="header_lien_aligne_19"> 
+    
+                            <a id="header_lien_12" href="">Machines virtuelles</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                            <div id="header_forme_partie_9"></div>
+                                    
+                        </div>
+                                
+                        <div id="header_lien_aligne_18"> 
+    
+                            <a id="header_lien_11" href="">Hébergement Cloud</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_8"></div>
+                                    
+                        </div>
+                                
+                        <div id="header_lien_aligne_17"> 
+    
+                            <a id="header_lien_10" href="">Stockage</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_7"></div>
+                                    
+    
+                        </div>
+                    
+                    </div>
+
+                    <div class="header_lien_flex_3">
+                                
+                        <div id="header_lien_aligne_16"> 
+    
+                            <a id="header_lien_9" href="">Télécom</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_6"></div>
+                                    
+    
+                        </div>
+    
+                        <div id="header_lien_aligne_15"> 
+    
+                            <a id="header_lien_8" href="">Wallet</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_5"></div>
+                                    
+    
+                        </div>
+    
+                        <div id="header_lien_aligne_14"> 
+    
+                            <a id="header_lien_7" href="">Entreprise</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_4"></div>
+                                    
+    
+                        </div>
+                        
+                        <div id="header_lien_aligne_13">    
+                                
+                            <a id="header_lien_6" href="">À propos</a>
+    
+                            <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
+                                    
+                            <div id="header_forme_partie_3"></div>
+                                    
+    
+                        </div>
+    
+                    </div>
+    
+                    </div>
+                            
+
+                <!-- Pour déplacer vers la droite -->
+                <div class="header_droite_2">
+                    
                     <!-- création du bouton de devis gratuit -->
                     <form action="http://localhost/prosit2v3.html">
                         
-                        <input id="bouton_devis_gratuit" type="submit" value="Devis gratuit">
+                        <input id="bouton_devis_gratuit_1" type="submit" value="Devis gratuit">
                             
                     </form>
 
                     <!-- Pour créer la forme qui décore les liens de la 2ème partie -->
                     <div id="header_forme_partie_2"></div>   
-                    
-                    <!-- Pour créer la forme qui servira comme un sélécteur de lien -->
-                    <div id="header_forme_partie_3"></div>
 
                 </div>
 
             </nav>
 
-
             <!-- image du logo ici -->
             <img class="header_image" height="70px" src="Logo-Studiolab CLOUD_White.png" alt="logo Studiolab cloud"/>
 
+            <!-- création du bouton de devis gratuit cacher -->
+            <form action="http://localhost/prosit2v3.html">
+                        
+                <div id="bouton_devis_gratuit_center">
+                    <input id="bouton_devis_gratuit_2" type="submit" value="Devis gratuit">
+                </div>
+                    
+            </form>
 
-            <!-- Création d'un dessin de batiment -->
-            <!--<svg id="header_batiment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="30" height="30">
-                
-                <path d=
-                "
-                M 10 10
-                h 20
-                v 40
-                h -20
-                v -40
-                m 10 0
-                v 40
-                m -10 -30
-                h 20
-                m -20 10
-                h 20
-                m -20 10
-                h 20
-                m 0 -20
-                h 20
-                v 30
-                h -20
-                m 0 -20
-                h 5
-                m 10 0
-                h -5
-                m 0 10
-                h 5
-                m -10 0
-                h -5
-                "
-                fill="none" stroke="orange" stroke-width="3"/>
-
-            </svg>-->
-
-            <!-- Création d'un dessin de téléphone -->
-            <!--<svg id="header_telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28">
-                
-                <path d=
-                "
-                M 10 10
-                h 25
-                v 20
-                h -8
-                c 0 30   30 40   40 40
-                v -8
-                h 20
-                v 25
-                h -20
-                v -3
-                c -30 0   -54 -30   -54 -54
-                h -3
-                v -20
-                m 25 20
-                l -8 10
-                v -10
-                h 8
-                m 32 32
-                l -5 8
-                h 5
-                v -8
-                "
-                fill="orange" stroke="orange" stroke-width="1"/>
-                
-            </svg>-->
+            <br>
+            <br>
+            <br>
 
         </section>
 
@@ -420,11 +597,6 @@
             <br>
             <br>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
 
             
             <!-- Image à aligner sur la droite ici -->
@@ -441,8 +613,8 @@
                 <h2 id="h_serveur_1">À partir de 85,49€ HT/mois</h2>
                 <h1 id="h_serveur_2">NOUVEAUX</h1>
                 <h1 id="h_serveur_3">SERVEUR RISE</h1>
-                <p id="p_serveur_3">Démarrer votre premier serveur sur nos nouvelles configurations</p>
-                <p id="p_serveur_4">les plus abordables de Studiolab Cloud</p> 
+                <p id="p_serveur_3">Démarrer votre premier serveur sur nos nouvelles </p>
+                <p id="p_serveur_4">configurations les plus abordables de Studiolab Cloud</p> 
             
                 <!-- bouton menant vers un lien pour voir les tarifs -->
                 <form action="http://localhost/prosit2v3.html">
@@ -466,6 +638,7 @@
                 <div class="main_forme_tarif_4"></div>
 
             </div>
+
             
             <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
             <div id="main_forme_tarif_principal_2">
@@ -535,74 +708,209 @@
 
             </div>
 
-            
-            <!-- Création d'un dessin de batiment
-            <svg class="header_batiment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="30" height="30">
-                
-                <path d=
-                "
-                M 10 10
-                h 20
-                v 40
-                h -20
-                v -40
-                m 10 0
-                v 40
-                m -10 -30
-                h 20
-                m -20 10
-                h 20
-                m -20 10
-                h 20
-                m 0 -20
-                h 20
-                v 30
-                h -20
-                m 0 -20
-                h 5
-                m 10 0
-                h -5
-                m 0 10
-                h 5
-                m -10 0
-                h -5
-                "
-                fill="none" stroke="orange" stroke-width="3"/>
-                
-            </svg>
-        -->
 
-            <!-- Création d'un dessin de téléphone
-            <svg class="header_telephone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="30" height="30">
-                
-                <path d=
-                "
-                M 10 10
-                h 25
-                v 20
-                h -8
-                c 0 30   30 40   40 40
-                v -8
-                h 20
-                v 25
-                h -20
-                v -3
-                c -30 0   -54 -30   -54 -54
-                h -3
-                v -20
-                m 25 20
-                l -8 10
-                v -10
-                h 8
-                m 32 32
-                l -5 8
-                h 5
-                v -8
-                "
-                fill="orange" stroke="orange" stroke-width="1"/>
-                
-            </svg>
-        -->
+            <!-- Si l'écran est plus petit (1231 px de largeur) -->
+            <div class="main_forme_tarif_principal_3"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_5"></div>
+                <div class="main_forme_tarif_6"></div>
+
+            </div>
+
+            <!-- Si l'écran est plus petit (1231 px de largeur) -->
+            <div class="main_forme_tarif_principal_3"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_5"></div>
+                <div class="main_forme_tarif_6"></div>
+
+            </div>
+
+
+            <!-- Si l'écran est plus petit (1231 px de largeur) -->
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_4">
+
+                <!-- Création de la première forme invisible pour le tarif -->
+                <div class="main_forme_tarif_1">
+                   
+                    <h3 id="h_premier_tarif_1">.com</h3>
+                    <h4 id="h_premier_tarif_2">9,99€ HT/an</h4>
+                    <h3 id="h_premier_tarif_3">7,49€</h3>
+                    <h4 id="h_premier_tarif_4">HT/an</h4>
+                    <h4 id="h_premier_tarif_5">soit 8,99€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_premier_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+                   
+
+                <!-- Création de la deuxième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_2">
+                       
+                    <h3 id="h_deuxieme_tarif_1">.fr</h3>
+                    <h4 id="h_deuxieme_tarif_2">6,99€ HT/an</h4>
+                    <h3 id="h_deuxieme_tarif_3">2,49€</h3>
+                    <h4 id="h_deuxieme_tarif_4">HT/an</h4>
+                    <h4 id="h_deuxieme_tarif_5">soit 3,59€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_deuxieme_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+
+            </div>
+
+            <!-- Si l'écran est plus petit (1231 px de largeur) -->
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_5">
+           
+                <!-- Création de la troisième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_1">
+                       
+                    <h3 id="h_troisieme_tarif_1">.io</h3>
+                    <h4 id="h_troisieme_tarif_2">56,99€ HT/an</h4>
+                    <h3 id="h_troisieme_tarif_3">37,99€</h3>
+                    <h4 id="h_troisieme_tarif_4">HT/an</h4>
+                    <h4 id="h_troisieme_tarif_5">soit 45,59€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_troisieme_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+
+                </div>
+
+
+                <!-- Création de la quatrième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_2">
+                       
+                    <h3 id="h_quatrieme_tarif_1">.tech</h3>
+                    <h4 id="h_quatrieme_tarif_2">56,99€ HT/an</h4>
+                    <h3 id="h_quatrieme_tarif_3">37,99€</h3>
+                    <h4 id="h_quatrieme_tarif_4">HT/an</h4>
+                    <h4 id="h_quatrieme_tarif_5">soit 45,59€ TTC/an</h4>
+                   
+                    <!-- texte à insérer ici -->
+                    <p id="p_quatrieme_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Si l'écran est plus petit (650 px de largeur) -->
+            <div class="main_forme_tarif_principal_6"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_7"></div>
+
+            </div>
+
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_7">
+
+                <!-- Création de la première forme invisible pour le tarif -->
+                <div class="main_forme_tarif_9">
+                   
+                    <h3 id="h_premier_tarif_1">.com</h3>
+                    <h4 id="h_premier_tarif_2">9,99€ HT/an</h4>
+                    <h3 id="h_premier_tarif_3">7,49€</h3>
+                    <h4 id="h_premier_tarif_4">HT/an</h4>
+                    <h4 id="h_premier_tarif_5">soit 8,99€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_premier_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+            
+            </div>
+
+            <div class="main_forme_tarif_principal_6"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_8"></div>
+
+            </div>
+
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_7">
+
+                <!-- Création de la deuxième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_10">
+                   
+                    <h3 id="h_deuxieme_tarif_1">.fr</h3>
+                    <h4 id="h_deuxieme_tarif_2">6,99€ HT/an</h4>
+                    <h3 id="h_deuxieme_tarif_3">2,49€</h3>
+                    <h4 id="h_deuxieme_tarif_4">HT/an</h4>
+                    <h4 id="h_deuxieme_tarif_5">soit 3,59€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_premier_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+            
+            </div>
+
+            <div class="main_forme_tarif_principal_6"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_8"></div>
+
+            </div>
+
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_7">
+
+                <!-- Création de la troisième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_10">
+                   
+                    <h3 id="h_troisieme_tarif_1">.io</h3>
+                    <h4 id="h_troisieme_tarif_2">56,99€ HT/an</h4>
+                    <h3 id="h_troisieme_tarif_3">37,99€</h3>
+                    <h4 id="h_troisieme_tarif_4">HT/an</h4>
+                    <h4 id="h_troisieme_tarif_5">soit 45,59€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_premier_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+            
+            </div>
+
+            <div class="main_forme_tarif_principal_6"> 
+
+                <!-- Création des formes des tarifs-->
+                <div class="main_forme_tarif_8"></div>
+
+            </div>
+
+            <!-- Pour aligner tout les paragraphes dans les formes des tarifs (ca marche comme un flex) -->
+            <div id="main_forme_tarif_principal_7">
+
+                <!-- Création de la quatrième forme invisible pour le tarif -->
+                <div class="main_forme_tarif_10">
+                   
+                    <h3 id="h_quatrieme_tarif_1">.tech</h3>
+                    <h4 id="h_quatrieme_tarif_2">56,99€ HT/an</h4>
+                    <h3 id="h_quatrieme_tarif_3">37,99€</h3>
+                    <h4 id="h_quatrieme_tarif_4">HT/an</h4>
+                    <h4 id="h_quatrieme_tarif_5">soit 45,59€ TTC/an</h4>
+
+                    <!-- texte à insérer ici -->
+                    <p id="p_premier_tarif_1">Coucou, ceci est un paragraphe pour tester si tout va bien ! ^_^  
+                       blablablabl aba lbalajzaban bab albnabala balbalbalabalba la blaba lbala</p>
+                   
+                </div>
+            
+            </div>
             
         </section>
 
@@ -613,17 +921,23 @@
             <h4 id="h_succes_client">Succès clients</h4>
             <h4 id="h_succes_client_1">&#x2192;</h4>    <!-- &#x2192; est une référence de caractère qui fait une flèche de droite -->
             
+            <!-- pour aligné les images avec les flèches -->
             <div class="succes_client_flex">
-            
+
                 <!-- Création de bouton en forme de flèche-->
                 <button id="bouton_succes_client_gauche">&#10094;</button>  <!-- flèche de gauche -->
 
-                <!-- plusieurs images à insérer ici -->
-                <img class="img_succes_client" id="img_succes_client_1" height="150px" src="INA.png" alt="image d'entreprise"/>
-                <img class="img_succes_client" id="img_succes_client_2" height="140px" src="maisons-du-monde.png" alt="image d'entreprise"/>
-                <img class="img_succes_client" id="img_succes_client_3" height="160px" src="ministere-de-l-interieur.png" alt="image d'entreprise"/>
-                <img class="img_succes_client" id="img_succes_client_4" height="70px" src="photobox-logo.png" alt="image d'entreprise"/>
-                <img class="img_succes_client" id="img_succes_client_5" height="150px" src="logo-WWF.png" alt="image d'entreprise"/>
+                <!-- Pour Créer la zone invisible qui cachera les images s'ils se déplacent trop loin -->
+                <div class="img_container">
+
+                    <!-- plusieurs images à insérer ici -->
+                    <img class="img_succes_client" id="img_succes_client_1" height="150px" src="INA.png" alt="image d'entreprise"/>
+                    <img class="img_succes_client" id="img_succes_client_2" height="140px" src="maisons-du-monde.png" alt="image d'entreprise"/>
+                    <img class="img_succes_client" id="img_succes_client_3" height="160px" src="ministere-de-l-interieur.png" alt="image d'entreprise"/>
+                    <img class="img_succes_client" id="img_succes_client_4" height="70px" src="photobox-logo.png" alt="image d'entreprise"/>
+                    <img class="img_succes_client" id="img_succes_client_5" height="150px" src="logo-WWF.png" alt="image d'entreprise"/>
+
+                </div>
 
                 <button id="bouton_succes_client_droite">&#10095;</button>  <!-- flèche de droite -->
 
@@ -1976,4 +2290,10 @@
 
     </footer>
 
+    <!-- Lien Javascript -->
+    <script src="test.js"></script>
+
 </body>
+
+</html>
+

@@ -1,0 +1,171 @@
+.succes_client_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 1000px; /* Ajustez selon vos besoins */
+    border: 2px solid black;
+}
+
+
+
+/* Création des boutons en forme de flèche pour faire défiler les images des clients */
+#bouton_succes_client_gauche
+{
+    position: relative;
+    right: 2%;
+    padding: 0px 40px; /* largeur, longueur*/
+    font-size: 300%;
+    /*top: 30px;*/
+    /*float: left;*/
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:red;
+}
+
+#bouton_succes_client_droite
+{
+    position: relative;
+    left: 2%;
+    padding: 0px 40px; /* longueur, largeur */
+    font-size: 300%;
+    /*top: 30px;*/
+    /*float: right;*/
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:blue;
+}
+
+
+
+/* Pour ajuster les images des clients (à voir avec Javascript) */
+#img_succes_client_1
+{
+    margin-left: 760px;
+}
+
+#img_succes_client_2
+{
+    margin-left: 20%;
+}
+
+#img_succes_client_3
+{
+    margin-left: 20%;
+}
+
+#img_succes_client_4
+{
+    margin-left: 20%;
+}
+
+#img_succes_client_5
+{
+    margin-left: 20%;
+}
+
+#img_succes_client_6
+{
+    margin-left: 5%;
+}
+
+
+
+.img_succes_client 
+{
+    /*transition-property: transform;*/
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+/*.img_succes_client*/.mouvement_gauche
+{
+    /*transform: translate(-100px, 0px);*/ /* (horizontal, vertical) */
+    transform: translateX(400px); /* position absolue attention */
+}
+
+/*#img_succes_client_1*/.mouvement_retour_gauche
+{
+    /*transition-property: transform;*/
+    transition-duration: 0s;
+    /*transform: translateX(400px);*/
+    /*margin-left: 100px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+#bouton_succes_client_gauche
+{
+    margin-right: 150px;
+}
+
+#test_flex_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#test {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width, height, transform;
+    transition-duration: 1s;
+    /*transition-timing-function: linear;*/
+    transition-timing-function: ease-in-out;
+  }
+
+#test_1
+{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition-property: width, height, transform;
+    transition-duration: 1s;
+    /*transition-timing-function: linear;*/
+    transition-timing-function: ease-in-out;
+}
+/*  
+  #test:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+
+#test.active {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}
+    */
+
+#test.active 
+{
+    transform: translate(50px,0px);
+}
+
+#test_1.active 
+{
+    transform: translate(50px,0px);
+}
