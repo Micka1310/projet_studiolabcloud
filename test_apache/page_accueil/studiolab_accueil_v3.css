@@ -3485,8 +3485,6 @@ input
 .succes_client_flex
 {
     display: flex;
-    /*margin-left: 5%;*/
-    /*margin-top: 4%;*/
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -3500,7 +3498,8 @@ input
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: 1000px; /* Ajustez selon vos besoins */
+    width: 1000px;
+    /*border: 2px solid black;*/
 }
 
 

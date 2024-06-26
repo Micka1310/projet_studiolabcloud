@@ -19,7 +19,7 @@ var nb_deplacement_1_total = 0; //  Pour indiquer le nombre de déplacement tota
 let nb_retour = [0, 0, 0, 0, 0];    //  Pour indiquer le nombre de retour à la position inital pour chaque image
 
 var nb_images = images.length;  //  nombre d'image au total appartenant à la classe "img_succes_client"
-
+ 
 
 
 function clique_bouton_gauche() 
@@ -177,7 +177,7 @@ function clique_bouton_gauche()
         //images[5].style.transform = `translateX(${distance_gauche_6}px)`;
     }
 
-        
+    /*    
     // On met à jour les variables
     document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
     document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -198,7 +198,7 @@ function clique_bouton_gauche()
     //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
     document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-    
+    */
 }
 
 
@@ -357,7 +357,7 @@ function clique_bouton_droite()
         //images[5].style.transform = `translateX(${distance_gauche_6}px)`;
     }
 
-        
+    /*    
     // On met à jour les variables
     document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
     document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -378,10 +378,10 @@ function clique_bouton_droite()
     //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
     document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-    
+    */
 }
 
-
+/*
 // On affiche les variables
 document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
 document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -402,56 +402,10 @@ document.getElementById("compteur_retour_5").innerHTML = "Nombre de retour effec
 //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
 document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-
+*/
 
 // Si on appuie sur le bouton de flèche gauche
 bouton_gauche.addEventListener('click', clique_bouton_gauche)
 
 // Si on appuie sur le bouton de flèche droite
 bouton_droite.addEventListener('click', clique_bouton_droite)
-
-
-
-
-
-
-
-
-
-
-
-
-const test_2 = document.getElementById('test_2');
-
-var nb_deplacement = 0;
-
-function test()
-{
-    let testDiv = document.getElementById('test');
-    let testDiv_1 = document.getElementById('test_1');
-    //testDiv.classList.toggle('active');
-    //testDiv_1.classList.toggle('active');
-
-    //  on active les sous-classes ".active"
-    //testDiv.classList.add('active');    
-    //testDiv_1.classList.add('active');
-
-    // On incrémente la variable de 1
-    nb_deplacement++;
-
-    // On affiche le nombre de déplacement effectuer
-    document.getElementById("nb_deplacement").innerHTML = "Nombre de déplacement effectuer : " +  nb_deplacement;
-
-    // On calcule la translation (en px) en fonction du nombre de déplacements et on attribue le résultat à une variable
-    let translateAmount = 50 * nb_deplacement;
-    
-    // On appliquer la translation
-    testDiv.style.transform = `translateX(${translateAmount}px)`;
-    testDiv_1.style.transform = `translateX(${translateAmount}px)`;
-};
-
-// On affiche le nombre de déplacement effectuer
-document.getElementById("nb_deplacement").innerHTML = "Nombre de déplacement effectuer : " +  nb_deplacement;
-
-// Si on clique sur le bouton de test
-test_2.addEventListener('click', test);
