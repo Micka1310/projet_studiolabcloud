@@ -3510,6 +3510,14 @@ input
     }
 }
 
+@media only screen and (max-width: 792px)
+{
+    .img_container
+    {
+        width: 220px;
+    }
+}
+
 
 
 /* Création des boutons en forme de flèche pour faire défiler les images des clients */
@@ -3574,25 +3582,69 @@ input
     }
 }
 
+@media only screen and (max-width: 792px)
+{
+    #img_succes_client_1
+    {
+        margin-left: 340px;
+        height : 110px;
+    }
+}
+
 
 #img_succes_client_2
 {
-    margin-left: 20%;
+    margin-left: 20%;   
 }
+
+@media only screen and (max-width: 792px)
+{
+    #img_succes_client_2
+    {
+        height : 100px;
+    }
+}
+
 
 #img_succes_client_3
 {
     margin-left: 20%;
 }
 
+@media only screen and (max-width: 792px)
+{
+    #img_succes_client_3
+    {
+        height : 120px;
+    }
+}
+
+
 #img_succes_client_4
 {
     margin-left: 12%;
 }
 
+@media only screen and (max-width: 792px)
+{
+    #img_succes_client_4
+    {
+        height : 60px;
+    }
+}
+
+
 #img_succes_client_5
 {
     margin-left: 20%;
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_succes_client_5
+    {
+        height : 110px;
+    }
 }
 
 .img_succes_client 

@@ -24,6 +24,28 @@ var nb_images = images.length;  //  nombre d'image au total appartenant à la cl
 //var depart = 1; //  Cette valeur change lorsque l'on clique pour la première fois sur le bouton de droite
 
 
+window.addEventListener('resize', () => 
+{
+    var taille_fenetre = window.innerWidth; // prend en valeur la taille de la fenêtre
+    
+    document.getElementById("taille_fenetre").innerHTML = "Taille actuel de la fenêtre : " +  taille_fenetre;
+    /*
+    for (let i=0; i < 4; i++)
+    {
+
+        nb_retour[i] = nb_retour[i] + 10;
+
+        
+    }
+    // On affiche le nombre de retour à la position d'origine de chaque image
+    document.getElementById("compteur_retour_1").innerHTML = "Nombre de retour effectuer pour img 1 : " +  nb_retour[0];
+    document.getElementById("compteur_retour_2").innerHTML = "Nombre de retour effectuer pour img 2 : " +  nb_retour[1];
+    document.getElementById("compteur_retour_3").innerHTML = "Nombre de retour effectuer pour img 3 : " +  nb_retour[2];
+    document.getElementById("compteur_retour_4").innerHTML = "Nombre de retour effectuer pour img 4 : " +  nb_retour[3];
+    document.getElementById("compteur_retour_5").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[4];*/
+});
+
+
 function img_container_width() 
 {
     return parseInt(window.getComputedStyle(img_container).width);   //  "parseInt" permet de convertir l'élément en nombre entier
