@@ -32,7 +32,16 @@
     border: transparent;
     background-color: transparent;
     color:red;
+    transition: color 0.3s;
+    cursor: pointer; /* Changer la forme de la souris en main */
 }
+
+#bouton_succes_client_gauche:hover 
+{
+    color: greenyellow; /* Changez la couleur au survol */
+}
+
+
 
 #bouton_succes_client_droite
 {
@@ -47,6 +56,13 @@
     border: transparent;
     background-color: transparent;
     color:blue;
+    transition: color 0.3s;
+    cursor: pointer; /* Changer la forme de la souris en main */
+}
+
+#bouton_succes_client_droite:hover 
+{
+    color: greenyellow; /* Changez la couleur au survol */
 }
 
 
@@ -54,7 +70,8 @@
 /* Pour ajuster les images des clients (à voir avec Javascript) */
 #img_succes_client_1
 {
-    margin-left: 760px;
+    /*margin-left: 760px;*/
+    margin-left: 0px;
 }
 
 #img_succes_client_2
@@ -69,7 +86,7 @@
 
 #img_succes_client_4
 {
-    margin-left: 20%;
+    margin-left: 12%;
 }
 
 #img_succes_client_5

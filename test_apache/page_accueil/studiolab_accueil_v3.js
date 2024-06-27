@@ -2,14 +2,15 @@ const bouton_gauche = document.getElementById('bouton_succes_client_gauche');
 const bouton_droite = document.getElementById('bouton_succes_client_droite');
 const images = document.getElementsByClassName('img_succes_client')
 const img_succes_client_1 = document.getElementById('img_succes_client_1');
+const img_container = document.querySelector('.img_container');
 
 var position_img = [1, 2, 3, 4, 0]; // position initial des images
 
-var distance_gauche_1 = -350;
-var distance_gauche_2 = -350;
-var distance_gauche_3 = -390;
-var distance_gauche_4 = -430;
-var distance_gauche_5 = -430;
+var distance_gauche_1 = 0;
+var distance_gauche_2 = 0;
+var distance_gauche_3 = 0;
+var distance_gauche_4 = 0;
+var distance_gauche_5 = 0;
 //var distance_gauche_6 = 0;
 
 var nb_deplacement_1_total = 0; //  Pour indiquer le nombre de déplacement total effectuer (par clique)
@@ -19,7 +20,15 @@ var nb_deplacement_1_total = 0; //  Pour indiquer le nombre de déplacement tota
 let nb_retour = [0, 0, 0, 0, 0];    //  Pour indiquer le nombre de retour à la position inital pour chaque image
 
 var nb_images = images.length;  //  nombre d'image au total appartenant à la classe "img_succes_client"
- 
+
+
+function img_container_width() 
+{
+    return parseInt(window.getComputedStyle(img_container).width);   //  "parseInt" permet de convertir l'élément en nombre entier
+}
+
+/* Pour avoir la valeur de la taille du container */
+const val_img_container_width = img_container_width();
 
 
 function clique_bouton_gauche() 
@@ -41,16 +50,16 @@ function clique_bouton_gauche()
 
     if (position_img[0] < 0) 
     {
-        distance_gauche_1 = 1100;    // Variable à changer
-        distance_gauche_2 = -850;
+        distance_gauche_1 = 1150;
+        distance_gauche_2 = 1000;
         distance_gauche_3 = -850;
         distance_gauche_4 = -750;
         distance_gauche_5 = -750;
         //distance_gauche_6 = -300;
 
-        position_img[0] = nb_images -1;    // Variable à changer
+        position_img[0] = nb_images -1;
 
-        images[0].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        images[1].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
 
         // déplace les images
@@ -67,16 +76,16 @@ function clique_bouton_gauche()
 
     if (position_img[1] < 0) 
     {
-        distance_gauche_1 = 800;    // Variable à changer
-        distance_gauche_2 = 1000;
-        distance_gauche_3 = -1150;
+        distance_gauche_1 = 700;
+        distance_gauche_2 = 660;
+        distance_gauche_3 = 800;
         distance_gauche_4 = -1150;
-        distance_gauche_5 = -1150;
+        distance_gauche_5 = -1180;
         //distance_gauche_6 = -550;
 
-        position_img[1] = nb_images - 1;    // Variable à changer
+        position_img[1] = nb_images - 1;
 
-        images[1].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        images[2].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
     
         // déplace les images
@@ -93,15 +102,15 @@ function clique_bouton_gauche()
         
     if (position_img[2] < 0) 
     {
-        distance_gauche_1 = 320;    // Variable à changer
-        distance_gauche_2 = 320;
-        distance_gauche_3 = 1000;
-        distance_gauche_4 = -1600;
+        distance_gauche_1 = 330;
+        distance_gauche_2 = 350;
+        distance_gauche_3 = 350;
+        distance_gauche_4 = 400;
         distance_gauche_5 = -1600;
 
-        position_img[2] = nb_images - 1;    // Variable à changer
+        position_img[2] = nb_images - 1;
 
-        images[2].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        images[3].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
     
         // déplace les images
@@ -118,14 +127,15 @@ function clique_bouton_gauche()
 
     if (position_img[3] < 0) 
     {
-        distance_gauche_1 = 0;    // Variable à changer
+        distance_gauche_1 = 0;
         distance_gauche_2 = 0;
-        distance_gauche_3 = 0;
-        distance_gauche_4 = -100;
-        distance_gauche_5 = -2000;
+        distance_gauche_3 = -20;
+        distance_gauche_4 = 0;
+        distance_gauche_5 = 0;
 
-        position_img[3] = nb_images - 1;    // Variable à changer
-        images[3].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        position_img[3] = nb_images - 1;
+
+        images[4].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
         
         // déplace les images
@@ -142,14 +152,15 @@ function clique_bouton_gauche()
 
     if (position_img[4] < 0) 
     {
-        distance_gauche_1 = -350;
-        distance_gauche_2 = -350;
-        distance_gauche_3 = -390;
-        distance_gauche_4 = -430;
-        distance_gauche_5 = -430;
+        distance_gauche_1 = 1400;
+        distance_gauche_2 = -400;
+        distance_gauche_3 = -500;
+        distance_gauche_4 = -350;
+        distance_gauche_5 = -330;
 
-        position_img[4] = nb_images - 1;    // Variable à changer
-        images[4].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        position_img[4] = nb_images - 1;
+
+        images[0].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
             
         // déplace les images
@@ -165,19 +176,7 @@ function clique_bouton_gauche()
     }
 
 
-    // Quand on revient à la situation de départ
-    else
-    {
-        // déplace les images
-        images[0].style.transform = `translateX(${distance_gauche_1}px)`;
-        images[1].style.transform = `translateX(${distance_gauche_2}px)`;
-        images[2].style.transform = `translateX(${distance_gauche_3}px)`;
-        images[3].style.transform = `translateX(${distance_gauche_4}px)`;
-        images[4].style.transform = `translateX(${distance_gauche_5}px)`;
-        //images[5].style.transform = `translateX(${distance_gauche_6}px)`;
-    }
-
-    /*    
+        
     // On met à jour les variables
     document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
     document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -187,7 +186,7 @@ function clique_bouton_gauche()
     //document.getElementById("position_img_6").innerHTML = "Position img 5 : " +  position_img[5];
 
     // On affiche le nombre de déplacement effectuer au total
-    document.getElementById("nb_deplacement_1").innerHTML = "Nombre de déplacement avant rénitialisation de img 1 : " +  nb_deplacement_1_total;
+    document.getElementById("nb_deplacement_1").innerHTML = "Nombre de déplacement efffectuer au total : " +  nb_deplacement_1_total;
 
     // On affiche le nombre de retour à la position d'origine de chaque image
     document.getElementById("compteur_retour_1").innerHTML = "Nombre de retour effectuer pour img 1 : " +  nb_retour[0];
@@ -197,8 +196,10 @@ function clique_bouton_gauche()
     document.getElementById("compteur_retour_5").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[4];
     //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
+    //document.getElementById("depart").innerHTML = "Valeur de départ : " +  depart;
+
     document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-    */
+    
 }
 
 
@@ -222,14 +223,15 @@ function clique_bouton_droite()
 
     if (position_img[0] > 4) 
     {
-        distance_gauche_1 = -350;
-        distance_gauche_2 = -350;
-        distance_gauche_3 = -390;
-        distance_gauche_4 = -430;
-        distance_gauche_5 = -430;
+        distance_gauche_1 = 1400;
+        distance_gauche_2 = -400;
+        distance_gauche_3 = -500;
+        distance_gauche_4 = -350;
+        distance_gauche_5 = -330;
 
-        position_img[0] = 0;    // Variable à changer
-        images[0].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        position_img[0] = 0;
+
+        images[1].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
             
         // déplace les images
@@ -247,16 +249,16 @@ function clique_bouton_droite()
 
     if (position_img[1] > 4) 
     {
-        distance_gauche_1 = 1100;    // Variable à changer
-        distance_gauche_2 = -850;
+        distance_gauche_1 = 1150;
+        distance_gauche_2 = 1000;
         distance_gauche_3 = -850;
         distance_gauche_4 = -750;
         distance_gauche_5 = -750;
         //distance_gauche_6 = -550;
 
-        position_img[1] = 0;    // Variable à changer
+        position_img[1] = 0;
 
-        images[1].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        images[2].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
     
         // déplace les images
@@ -273,15 +275,15 @@ function clique_bouton_droite()
 
     if (position_img[2] > 4) 
     {
-        distance_gauche_1 = 800;    // Variable à changer
-        distance_gauche_2 = 1000;
-        distance_gauche_3 = -1150;
+        distance_gauche_1 = 700;
+        distance_gauche_2 = 660;
+        distance_gauche_3 = 800;
         distance_gauche_4 = -1150;
-        distance_gauche_5 = -1150;
+        distance_gauche_5 = -1180;
 
-        position_img[2] = 0;    // Variable à changer
+        position_img[2] = 0;
 
-        images[2].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        images[3].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
     
         // déplace les images
@@ -298,14 +300,15 @@ function clique_bouton_droite()
 
     if (position_img[3] > 4) 
     {
-        distance_gauche_1 = 320;
-        distance_gauche_2 = 320;
-        distance_gauche_3 = 1000;
-        distance_gauche_4 = -1600;
+        distance_gauche_1 = 330;
+        distance_gauche_2 = 350;
+        distance_gauche_3 = 350;
+        distance_gauche_4 = 400;
         distance_gauche_5 = -1600;
 
-        position_img[3] = 0;    // Variable à changer
-        images[3].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        position_img[3] = 0;
+
+        images[4].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
         
         // déplace les images
@@ -324,12 +327,13 @@ function clique_bouton_droite()
     {
         distance_gauche_1 = 0;
         distance_gauche_2 = 0;
-        distance_gauche_3 = 0;
-        distance_gauche_4 = -100;
-        distance_gauche_5 = -2000;
+        distance_gauche_3 = -20;
+        distance_gauche_4 = 0;
+        distance_gauche_5 = 0;
 
-        position_img[4] = 0;    // Variable à changer
-        images[4].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
+        position_img[4] = 0;    
+
+        images[0].classList.add('mouvement_retour_gauche'); // Pour ajouter l'effet de déplacement instantané
         //images[0].classList.add('mouvement_gauche');
             
         // déplace les images
@@ -345,19 +349,7 @@ function clique_bouton_droite()
     }
 
 
-    // Quand on revient à la situation de départ
-    else
-    {
-        // déplace les images
-        images[0].style.transform = `translateX(${distance_gauche_1}px)`;
-        images[1].style.transform = `translateX(${distance_gauche_2}px)`;
-        images[2].style.transform = `translateX(${distance_gauche_3}px)`;
-        images[3].style.transform = `translateX(${distance_gauche_4}px)`;
-        images[4].style.transform = `translateX(${distance_gauche_5}px)`;
-        //images[5].style.transform = `translateX(${distance_gauche_6}px)`;
-    }
-
-    /*    
+        
     // On met à jour les variables
     document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
     document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -378,10 +370,10 @@ function clique_bouton_droite()
     //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
     document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-    */
+    
 }
 
-/*
+
 // On affiche les variables
 document.getElementById("position_img_1").innerHTML = "Position img 1 : " +  position_img[0];
 document.getElementById("position_img_2").innerHTML = "Position img 2 : " +  position_img[1];
@@ -402,7 +394,9 @@ document.getElementById("compteur_retour_5").innerHTML = "Nombre de retour effec
 //document.getElementById("compteur_retour_6").innerHTML = "Nombre de retour effectuer pour img 5 : " +  nb_retour[5];
 
 document.getElementById("nb_images").innerHTML = "Nombre d'images : " +  nb_images;
-*/
+
+document.getElementById("taille_container").innerHTML = "Taille du container : " +  val_img_container_width;
+
 
 // Si on appuie sur le bouton de flèche gauche
 bouton_gauche.addEventListener('click', clique_bouton_gauche)
