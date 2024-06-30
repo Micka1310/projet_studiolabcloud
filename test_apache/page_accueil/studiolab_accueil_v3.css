@@ -97,11 +97,13 @@ input
 /* ##############                   ############## */
 
 /* partie décoration de cercle à gauche dans la partie "serveur RISE" */
+
 #serveur_forme_1
 {
     position: absolute;
     z-index: 0;
 }
+
 
 #serveur_forme_3
 {
@@ -415,9 +417,132 @@ input
     z-index: 0;
 }
 
+@media only screen and (max-width: 1020px) 
+{
+    #serveur_forme_3
+    {
+        display: none;
+    }
+
+    #serveur_forme_4
+    {
+        display: none;
+    }
+
+    #serveur_forme_5
+    {
+        display: none;
+    }
+
+    #serveur_forme_6
+    {
+        display: none;
+    }
+
+    #serveur_forme_7
+    {
+        display: none;
+    }
+
+    #serveur_forme_8
+    {
+        display: none;
+    }
+
+    #serveur_forme_9
+    {
+        display: none;
+    }
+
+    #serveur_forme_10
+    {
+        display: none;
+    }
+
+    #serveur_forme_11
+    {
+        display: none;
+    }
+
+    #serveur_forme_12
+    {
+        display: none;
+    }
+
+    #serveur_forme_13
+    {
+        display: none;
+    }
+
+    #serveur_forme_14
+    {
+        display: none;
+    }
+
+    #serveur_forme_15
+    {
+        display: none;
+    }
+
+    #serveur_forme_16
+    {
+        display: none;
+    }
+
+    #serveur_forme_17
+    {
+        display: none;
+    }
+
+    #serveur_forme_18
+    {
+        display: none;
+    }
+
+    #serveur_forme_19
+    {
+        display: none;
+    }
+
+    #serveur_forme_20
+    {
+        display: none;
+    }
+
+    #serveur_forme_21
+    {
+        display: none;
+    }
+
+    #serveur_forme_22
+    {
+        display: none;
+    }
+
+    #serveur_forme_23
+    {
+        display: none;
+    }
+
+    #serveur_forme_24
+    {
+        display: none;
+    }
+
+    #serveur_forme_25
+    {
+        display: none;
+    }
+
+    #serveur_forme_26
+    {
+        display: none;
+    }
+}
 
 
-/* partie décoration de cercle à gauche dans la partie "serveur RISE" */
+
+/* partie décoration de cercle à droite dans la partie "serveur RISE" */
 #serveur_forme_27
 {
     position: absolute;
@@ -1119,6 +1244,280 @@ input
     opacity: 0.3;
     z-index: 0;
 }
+
+@media only screen and (max-width: 1020px) 
+{
+    #serveur_forme_27
+    {
+        display: none;
+    }
+
+    #serveur_forme_28
+    {
+        display: none;
+    }
+
+    #serveur_forme_29
+    {
+        display: none;
+    }
+
+    #serveur_forme_30
+    {
+        display: none;
+    }
+
+    #serveur_forme_31
+    {
+        display: none;
+    }
+
+    #serveur_forme_32
+    {
+        display: none;
+    }
+
+    #serveur_forme_33
+    {
+        display: none;
+    }
+
+    #serveur_forme_34
+    {
+        display: none;
+    }
+
+    #serveur_forme_35
+    {
+        display: none;
+    }
+
+    #serveur_forme_36
+    {
+        display: none;
+    }
+
+    #serveur_forme_37
+    {
+        display: none;
+    }
+
+    #serveur_forme_38
+    {
+        display: none;
+    }
+
+    #serveur_forme_39
+    {
+        display: none;
+    }
+
+    #serveur_forme_40
+    {
+        display: none;
+    }
+
+    #serveur_forme_41
+    {
+        display: none;
+    }
+
+    #serveur_forme_42
+    {
+        display: none;
+    }
+
+    #serveur_forme_43
+    {
+        display: none;
+    }
+
+    #serveur_forme_44
+    {
+        display: none;
+    }
+
+    #serveur_forme_45
+    {
+        display: none;
+    }
+
+    #serveur_forme_46
+    {
+        display: none;
+    }
+
+    #serveur_forme_47
+    {
+        display: none;
+    }
+
+    #serveur_forme_48
+    {
+        display: none;
+    }
+
+    #serveur_forme_49
+    {
+        display: none;
+    }
+
+    #serveur_forme_50
+    {
+        display: none;
+    }
+
+    #serveur_forme_51
+    {
+        display: none;
+    }
+
+    #serveur_forme_52
+    {
+        display: none;
+    }
+
+    #serveur_forme_53
+    {
+        display: none;
+    }
+
+    #serveur_forme_54
+    {
+        display: none;
+    }
+
+    #serveur_forme_55
+    {
+        display: none;
+    }
+
+    #serveur_forme_56
+    {
+        display: none;
+    }
+
+    #serveur_forme_57
+    {
+        display: none;
+    }
+
+    #serveur_forme_58
+    {
+        display: none;
+    }
+
+    #serveur_forme_59
+    {
+        display: none;
+    }
+
+    #serveur_forme_60
+    {
+        display: none;
+    }
+
+    #serveur_forme_61
+    {
+        display: none;
+    }
+
+    #serveur_forme_62
+    {
+        display: none;
+    }
+
+    #serveur_forme_63
+    {
+        display: none;
+    }
+
+    #serveur_forme_64
+    {
+        display: none;
+    }
+
+    #serveur_forme_65
+    {
+        display: none;
+    }
+
+    #serveur_forme_66
+    {
+        display: none;
+    }
+
+    #serveur_forme_67
+    {
+        display: none;
+    }
+
+    #serveur_forme_68
+    {
+        display: none;
+    }
+
+    #serveur_forme_69
+    {
+        display: none;
+    }
+
+    #serveur_forme_70
+    {
+        display: none;
+    }
+
+    #serveur_forme_71
+    {
+        display: none;
+    }
+
+    #serveur_forme_72
+    {
+        display: none;
+    }
+
+    #serveur_forme_73
+    {
+        display: none;
+    }
+
+    #serveur_forme_74
+    {
+        display: none;
+    }
+
+    #serveur_forme_75
+    {
+        display: none;
+    }
+
+    #serveur_forme_76
+    {
+        display: none;
+    }
+
+    #serveur_forme_77
+    {
+        display: none;
+    }
+
+    #serveur_forme_78
+    {
+        display: none;
+    }
+
+    #serveur_forme_79
+    {
+        display: none;
+    }
+
+    #serveur_forme_80
+    {
+        display: none;
+    }
+}
+
 
 
 /* les mesures (en pixel) des breakpoints principale de la page */
@@ -3493,13 +3892,14 @@ input
 
 
 /* Pour Créer la zone invisible qui cachera les images s'ils se déplacent trop loin */
-.img_container {
+.img_container 
+{
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     width: 1000px;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 
 @media only screen and (max-width: 1231px)
@@ -3556,7 +3956,7 @@ input
     /*border: 2px solid white;*/
     border: transparent;
     background-color: transparent;
-    color:blue;
+    color: red;
     transition: color 0.3s;
     cursor: pointer; /* Changer la forme de la souris en main */
 }
@@ -3649,23 +4049,18 @@ input
 
 .img_succes_client 
 {
-    /*transition-property: transform;*/
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
 }
 
-/*.img_succes_client*/.mouvement_gauche
+.mouvement_gauche
 {
-    /*transform: translate(-100px, 0px);*/ /* (horizontal, vertical) */
-    transform: translateX(400px); /* position absolue attention */
+    transform: translateX(0px); /* position absolue attention */
 }
 
-/*#img_succes_client_1*/.mouvement_retour_gauche
+.mouvement_retour_gauche
 {
-    /*transition-property: transform;*/
     transition-duration: 0s;
-    /*transform: translateX(400px);*/
-    /*margin-left: 100px;*/
 }
 
 
@@ -3679,11 +4074,15 @@ input
 #service_forme_flex
 {
     display: flex;
+    
+    text-align: center;     /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center;     /* Centrer verticalement */
 }
 
 
 
-/* Pour décorer la partie "service" avec des lignes de points */
+/* Pour décorer la partie "service" avec des lignes de points à droite */
 #service_forme_1
 {
     position: absolute;
@@ -4959,15 +5358,509 @@ input
 }
 
 
+@media only screen and (max-width: 1020px) 
+{
+    #service_forme_1 
+    {
+        display: none;
+    }
+
+    #service_forme_2
+    {
+        display: none;
+    }
+
+    #service_forme_3
+    {
+        display: none;
+    }
+
+    #service_forme_4
+    {
+        display: none;
+    }
+
+    #service_forme_5
+    {
+        display: none;
+    }
+
+    #service_forme_6
+    {
+        display: none;
+    }
+
+    #service_forme_7
+    {
+        display: none;
+    }
+
+    #service_forme_8
+    {
+        display: none;
+    }
+
+    #service_forme_9
+    {
+        display: none;
+    }
+
+    #service_forme_10
+    {
+        display: none;
+    }
+
+    #service_forme_11
+    {
+        display: none;
+    }
+
+    #service_forme_12
+    {
+        display: none;
+    }
+
+    #service_forme_13
+    {
+        display: none;
+    }
+
+    #service_forme_14
+    {
+        display: none;
+    }
+
+    #service_forme_15
+    {
+        display: none;
+    }
+
+    #service_forme_16
+    {
+        display: none;
+    }
+
+    #service_forme_17
+    {
+        display: none;
+    }
+
+    #service_forme_18
+    {
+        display: none;
+    }
+
+    #service_forme_19
+    {
+        display: none;
+    }
+
+    #service_forme_20
+    {
+        display: none;
+    }
+
+    #service_forme_21
+    {
+        display: none;
+    }
+
+    #service_forme_22
+    {
+        display: none;
+    }
+
+    #service_forme_23
+    {
+        display: none;
+    }
+
+    #service_forme_24
+    {
+        display: none;
+    }
+
+    #service_forme_25
+    {
+        display: none;
+    }
+
+    #service_forme_26
+    {
+        display: none;
+    }
+
+    #service_forme_27
+    {
+        display: none;
+    }
+
+    #service_forme_28
+    {
+        display: none;
+    }
+
+    #service_forme_29
+    {
+        display: none;
+    }
+
+    #service_forme_30
+    {
+        display: none;
+    }
+
+    #service_forme_31
+    {
+        display: none;
+    }
+
+    #service_forme_32
+    {
+        display: none;
+    }
+
+    #service_forme_33
+    {
+        display: none;
+    }
+
+    #service_forme_34
+    {
+        display: none;
+    }
+
+    #service_forme_35
+    {
+        display: none;
+    }
+
+    #service_forme_36
+    {
+        display: none;
+    }
+
+    #service_forme_37
+    {
+        display: none;
+    }
+
+    #service_forme_38
+    {
+        display: none;
+    }
+
+    #service_forme_39
+    {
+        display: none;
+    }
+
+    #service_forme_40
+    {
+        display: none;
+    }
+
+    #service_forme_41
+    {
+        display: none;
+    }
+
+    #service_forme_42
+    {
+        display: none;
+    }
+
+    #service_forme_43
+    {
+        display: none;
+    }
+
+    #service_forme_44
+    {
+        display: none;
+    }
+
+    #service_forme_45
+    {
+        display: none;
+    }
+
+    #service_forme_46
+    {
+        display: none;
+    }
+
+    #service_forme_47
+    {
+        display: none;
+    }
+
+    #service_forme_48
+    {
+        display: none;
+    }
+
+    #service_forme_49
+    {
+        display: none;
+    }
+
+    #service_forme_50
+    {
+        display: none;
+    }
+
+    #service_forme_51
+    {
+        display: none;
+    }
+
+    #service_forme_52
+    {
+        display: none;
+    }
+
+    #service_forme_53
+    {
+        display: none;
+    }
+
+    #service_forme_54
+    {
+        display: none;
+    }
+
+    #service_forme_55
+    {
+        display: none;
+    }
+
+    #service_forme_56
+    {
+        display: none;
+    }
+
+    #service_forme_57
+    {
+        display: none;
+    }
+
+    #service_forme_58
+    {
+        display: none;
+    }
+
+    #service_forme_59
+    {
+        display: none;
+    }
+
+    #service_forme_60
+    {
+        display: none;
+    }
+
+    #service_forme_61
+    {
+        display: none;
+    }
+
+    #service_forme_62
+    {
+        display: none;
+    }
+
+    #service_forme_63
+    {
+        display: none;
+    }
+
+    #service_forme_64
+    {
+        display: none;
+    }
+
+    #service_forme_65
+    {
+        display: none;
+    }
+
+    #service_forme_66
+    {
+        display: none;
+    }
+
+    #service_forme_67
+    {
+        display: none;
+    }
+
+    #service_forme_68
+    {
+        display: none;
+    }
+
+    #service_forme_69
+    {
+        display: none;
+    }
+
+    #service_forme_70
+    {
+        display: none;
+    }
+
+    #service_forme_71
+    {
+        display: none;
+    }
+
+    #service_forme_72
+    {
+        display: none;
+    }
+
+    #service_forme_73
+    {
+        display: none;
+    }
+
+    #service_forme_74
+    {
+        display: none;
+    }
+
+    #service_forme_75
+    {
+        display: none;
+    }
+
+    #service_forme_76
+    {
+        display: none;
+    }
+
+    #service_forme_77
+    {
+        display: none;
+    }
+
+    #service_forme_78
+    {
+        display: none;
+    }
+
+    #service_forme_79
+    {
+        display: none;
+    }
+
+    #service_forme_80
+    {
+        display: none;
+    }
+
+    #service_forme_81
+    {
+        display: none;
+    }
+
+    #service_forme_82
+    {
+        display: none;
+    }
+
+    #service_forme_83
+    {
+        display: none;
+    }
+
+    #service_forme_84
+    {
+        display: none;
+    }
+
+    #service_forme_85
+    {
+        display: none;
+    }
+
+    #service_forme_86
+    {
+        display: none;
+    }
+    
+    #service_forme_87
+    {
+        display: none;
+    }
+
+    #service_forme_88
+    {
+        display: none;
+    }
+
+    #service_forme_89
+    {
+        display: none;
+    }
+
+    #service_forme_90
+    {
+        display: none;
+    }
+
+    #service_forme_91
+    {
+        display: none;
+    }
+
+    #service_forme_92
+    {
+        display: none;
+    }
+
+    #service_forme_93
+    {
+        display: none;
+    }
+
+    #service_forme_94
+    {
+        display: none;
+    }
+
+    #service_forme_95
+    {
+        display: none;
+    }
+
+    #service_forme_96
+    {
+        display: none;
+    }
+    
+    #service_forme_97
+    {
+        display: none;
+    }
+
+    #service_forme_98
+    {
+        display: none;
+    }
+}
+
+
 
 /* Pour décorer la partie "service" avec des cercles dèrrière le titre */
 #service_forme_99
 {
     position: absolute;
-    margin-top: 6.5%;
+    margin-top: 95px;
     margin-left: 49%;
-    width: 9.5%; 
-    height: 20%; 
+    width: 140px; 
+    height: 140px; 
     border-radius: 100px 100px 100px 100px;
     background-color: orange;
     opacity: 0.1;
@@ -4977,10 +5870,10 @@ input
 #service_forme_100
 {
     position: absolute;
-    margin-top: 9%;
+    margin-top: 140px;
     margin-left: 48.5%;
-    width: 7%; 
-    height: 15%; 
+    width: 105px; 
+    height: 105px; 
     border-radius: 100px 100px 100px 100px;
     background-color: orange;
     opacity: 0.1;
@@ -5709,17 +6602,261 @@ input
 }
 
 
+@media only screen and (max-width: 1450px) 
+{
+    #service_forme_107 
+    {
+        display: none;
+    }
+
+    #service_forme_108
+    {
+        display: none;
+    }
+
+    #service_forme_109
+    {
+        display: none;
+    }
+
+    #service_forme_110
+    {
+        display: none;
+    }
+
+    #service_forme_111
+    {
+        display: none;
+    }
+
+    #service_forme_112
+    {
+        display: none;
+    }
+
+    #service_forme_113
+    {
+        display: none;
+    }
+
+    #service_forme_114
+    {
+        display: none;
+    }
+
+    #service_forme_115
+    {
+        display: none;
+    }
+
+    #service_forme_116
+    {
+        display: none;
+    }
+
+    #service_forme_117
+    {
+        display: none;
+    }
+
+    #service_forme_118
+    {
+        display: none;
+    }
+
+    #service_forme_119
+    {
+        display: none;
+    }
+
+    #service_forme_120
+    {
+        display: none;
+    }
+
+    #service_forme_121
+    {
+        display: none;
+    }
+
+    #service_forme_122
+    {
+        display: none;
+    }
+
+    #service_forme_123
+    {
+        display: none;
+    }
+
+    #service_forme_124
+    {
+        display: none;
+    }
+
+    #service_forme_125
+    {
+        display: none;
+    }
+
+    #service_forme_126
+    {
+        display: none;
+    }
+
+    #service_forme_127
+    {
+        display: none;
+    }
+
+    #service_forme_128
+    {
+        display: none;
+    }
+
+    #service_forme_129
+    {
+        display: none;
+    }
+
+    #service_forme_130
+    {
+        display: none;
+    }
+
+    #service_forme_131
+    {
+        display: none;
+    }
+
+    #service_forme_132
+    {
+        display: none;
+    }
+
+    #service_forme_133
+    {
+        display: none;
+    }
+
+    #service_forme_134
+    {
+        display: none;
+    }
+
+    #service_forme_135
+    {
+        display: none;
+    }
+
+    #service_forme_136
+    {
+        display: none;
+    }
+
+    #service_forme_137
+    {
+        display: none;
+    }
+
+    #service_forme_138
+    {
+        display: none;
+    }
+
+    #service_forme_139
+    {
+        display: none;
+    }
+
+    #service_forme_140
+    {
+        display: none;
+    }
+
+    #service_forme_141
+    {
+        display: none;
+    }
+
+    #service_forme_142
+    {
+        display: none;
+    }
+
+    #service_forme_143
+    {
+        display: none;
+    }
+
+    #service_forme_144
+    {
+        display: none;
+    }
+
+    #service_forme_145
+    {
+        display: none;
+    }
+
+    #service_forme_146
+    {
+        display: none;
+    }
+
+    #service_forme_147
+    {
+        display: none;
+    }
+
+    #service_forme_148
+    {
+        display: none;
+    }
+
+    #service_forme_149
+    {
+        display: none;
+    }
+
+    #service_forme_150
+    {
+        display: none;
+    }
+
+    #service_forme_151
+    {
+        display: none;
+    }
+
+    #service_forme_152
+    {
+        display: none;
+    }
+
+    #service_forme_153
+    {
+        display: none;
+    }
+
+    #service_forme_154
+    {
+        display: none;
+    }
+}
+
+
 
 /* Création de formes qui ressemblent à des lignes */
 #service_forme_partie_1
 {
     position: relative;
-    width: 2%; 
+    width: 35px; 
     height: 1vh; 
     /*margin-right: auto;*/
     /*margin-left: 20.3%;*/
-    margin-left: 45%;
-    margin-top: 10%; /*  modifie la hauteur de la position de la forme totale */
+    /*margin-left: 45%;*/
+    margin-top: 152px; /*  modifie la hauteur de la position de la forme totale */
     border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
     background-color: rgb(0, 210, 200);
     z-index: 1;
@@ -5728,12 +6865,12 @@ input
 #service_forme_partie_2
 {
     position: relative;
-    width: 6.5%; 
+    width: 100px; 
     height: 1vh; 
     /*margin-right: auto;*/
     /*margin-left: 20.3%;*/
     margin-left: 1%;
-    margin-top: 10%; /*  modifie la hauteur de la position de la forme totale */
+    margin-top: 152px; /*  modifie la hauteur de la position de la forme totale */
     border-radius: 50px 50px 50px 50px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
     background-color: rgb(0, 210, 200);
     background-image: linear-gradient(to right, rgb(0, 210, 200), rgb(70, 70, 70));
@@ -5769,14 +6906,76 @@ input
 .service_position_1
 {
     position: relative;
-    width: 30%;     /* largeur */
+    width: 450px;     /* largeur */
     height: 46vh;   /* longueur */
-    margin-left: 17%;
+    margin-left: 0%;
     margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
     border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
     background-color: transparent;
     opacity: 1;
     z-index: 0;
+}
+
+@media only screen and (max-width: 650px) 
+{
+    .service_position_1
+    {
+        width: 430px;
+    }
+}
+
+
+.service_position_2
+{
+    position: relative;
+    width: 450px;     /* largeur */
+    height: 46vh;   /* longueur */
+    margin-left: 10%;
+    margin-top: 5%; /*  modifie la hauteur de la position de la forme totale */
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+    opacity: 1;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1178px) 
+{
+    .service_position_2
+    {
+        display: none;
+    }
+}
+
+
+.service_position_3
+{
+    position: relative;
+    width: 450px;     /* largeur */
+    height: 46vh;   /* longueur */
+    margin-left: 0%;
+    margin-top: 50px; /*  modifie la hauteur de la position de la forme totale */
+    margin-bottom: 175px;
+    border-radius: 15px 15px 15px 15px;    /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
+    background-color: transparent;
+    opacity: 1;
+    z-index: 0;
+}
+
+
+@media only screen and (min-width: 1178px) 
+{
+    .service_position_3
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) 
+{
+    .service_position_3
+    {
+        width: 430px;
+    }
 }
 
 
@@ -5795,14 +6994,22 @@ input
 .service_cercle
 {
     position: absolute;
-    margin-top: 0%;
-    margin-left: -20%;
-    width: 110%; 
-    height: 150%; 
+    margin-top: -40px;
+    margin-left: -23px;
+    width: 500px; 
+    height: 500px; 
     border-radius: 400px 400px 400px 400px;
     background-color: rgb(140, 220, 250);
     opacity: 0.2;
     z-index: 0;
+}
+
+@media only screen and (max-width: 650px) 
+{
+    .service_cercle
+    {
+        margin-left: -35px;
+    }
 }
 
 
@@ -5811,42 +7018,42 @@ input
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 16%;
+    margin-left: 0%;
 }
 
 #service_h_3
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 16%;
+    margin-left: 0%;
 }
 
 #service_h_4
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 27%;
+    margin-left: 0%;
 }
 
 #service_h_5
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 26%;
+    margin-left: 0%;
 }
 
 #service_h_6
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 25%;
+    margin-left: 0%;
 }
 
 #service_h_7
 {
     font-size: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 29%;
+    margin-left: 0%;
 }
 
 
@@ -5855,8 +7062,8 @@ input
 /* Pour modifier l'interligne des paragrahes */
 .service_liste
 {
-    line-height: 2;
-    margin-left: -10%;
+    line-height: 1.8;
+    margin-left: 0%;
 }
 
 
@@ -5864,22 +7071,22 @@ input
 /* Pour ajuster la position des images */
 #service_img_1
 {
-    margin-right: 30%;
+    margin-right: 0%;
 }
 
 #service_img_2
 {
-    margin-right: 30%;
+    margin-right: 0%;
 }
 
 #service_img_3
 {
-    margin-right: 30%;
+    margin-right: 0%;
 }
 
 #service_img_4
 {
-    margin-right: 30%;
+    margin-right: 0%;
 }
 
 
@@ -5889,7 +7096,7 @@ input
 {
     position: relative;
     bottom: 15px;
-    left: 18%;
+    left: 0%;
     padding: 8px 40px;
     border-radius: 20px;
     border: 2px solid rgb(250, 100, 30);
@@ -5915,27 +7122,224 @@ input
 
 
 
-/* Pour aligner les images des partenaires */
-#partenaire_flex
+/* ///////////// */
+#partenaire_flex_v1
 {
     display: flex;
 }
-
-
-
-/* Pour ajuster la position des images des partenaires */
-.partenaire_image
-{
-    position: relative;
-    margin-left: 3%;
-}
-
 #partenaire_image
 {
     position: relative;
     margin-left: 19%;
 }
 
+
+
+/* Pour aligner les images des partenaires */
+#partenaire_flex
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.img_container_partenaire
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 1000px;
+    /*border: 2px solid black;*/
+}
+
+
+
+/* Pour Créer la zone invisible qui cachera les images s'ils se déplacent trop loin */
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 1000px;
+    /*border: 2px solid black;*/
+}
+
+@media only screen and (max-width: 1231px)
+{
+    .img_container
+    {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 792px)
+{
+    .img_container
+    {
+        width: 220px;
+    }
+}
+
+
+
+/* Création des boutons en forme de flèche pour faire défiler les images des clients */
+#bouton_partenaire_gauche
+{
+    position: relative;
+    right: 2%;
+    padding: 0px 40px; /* longueur, largeur */
+    font-size: 300%;
+    /*top: 30px;*/
+    /*float: left;*/
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:blue;
+    transition: color 0.3s;
+    cursor: pointer; /* Changer la forme de la souris en main */
+}
+
+#bouton_partenaire_gauche:hover 
+{
+    color: greenyellow; /* Changez la couleur lorsque l'on passe sa souris sur le bouton */
+}
+
+
+#bouton_partenaire_droite
+{
+    position: relative;
+    left: 2%;
+    padding: 0px 40px; /* longueur, largeur */
+    font-size: 300%;
+    /*top: 30px;*/
+    /*float: right;*/
+    border-radius: 20px;
+    /*border: 2px solid white;*/
+    border: transparent;
+    background-color: transparent;
+    color:blue;
+    transition: color 0.3s;
+    cursor: pointer; /* Changer la forme de la souris en main */
+}
+
+#bouton_partenaire_droite:hover 
+{
+    color: greenyellow; /* Changez la couleur lorsque l'on passe sa souris sur le bouton */
+}
+
+
+
+/* Pour ajuster la position des images des partenaires */
+.partenaire_img
+{
+    position: relative;
+    margin-left: 3%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+/* Pour ajuster les images des clients (à voir avec Javascript) */
+#img_partenaire_1
+{
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 1231px)
+{
+    #img_partenaire_1
+    {
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_partenaire_1
+    {
+        margin-left: 340px;
+        height : 110px;
+    }
+}
+
+
+#img_partenaire_2
+{
+    margin-left: 20%;   
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_partenaire_2
+    {
+        height : 100px;
+    }
+}
+
+
+#img_partenaire_3
+{
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_partenaire_3
+    {
+        height : 120px;
+    }
+}
+
+
+#img_partenaire_4
+{
+    margin-left: 12%;
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_partenaire_4
+    {
+        height : 60px;
+    }
+}
+
+
+#img_partenaire_5
+{
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 792px)
+{
+    #img_partenaire_5
+    {
+        height : 110px;
+    }
+}
+
+/*
+.img_succes_client 
+{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}*/
+
+.mouvement_gauche_partenaire
+{
+    transform: translateX(400px); /* position absolue attention */
+}
+
+.mouvement_retour_gauche_partenaire
+{
+    transition-duration: 0s;
+}
 
 
 
