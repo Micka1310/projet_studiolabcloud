@@ -1769,7 +1769,7 @@ input
     position: relative;
     top: 12px ;
     left: 9%;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1450px) 
@@ -1827,7 +1827,7 @@ input
     position: relative;
     top: 12px ;
     left: 7.5%;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1450px) 
@@ -1854,9 +1854,9 @@ input
 {
     position: relative;
     top: 13px ;
-    left: 8.3%;
+    left: 8.5%;
     z-index: 3; /* Pour superposé le bouton de recherche devant la barre de recherche */
-    opacity: 0.5; /* je rend le bouton transparent */
+    opacity: 1; /* je rend le bouton transparent */
 }
 
 @media only screen and (max-width: 1450px) 
@@ -1864,7 +1864,7 @@ input
     #header_bouton_de_recherche_1
     {
         left: auto;
-        right: 1.75%;
+        right: 1.50%;
     }
 }
 
@@ -1873,7 +1873,7 @@ input
     #header_bouton_de_recherche_1
     {
         left: auto;
-        right: 0.4%;
+        right: 0%;
     }
 }
 
@@ -1898,7 +1898,7 @@ input
     height: 25px;
     border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
     padding-left: 30px; 
-    background-image: url('test_patate.jpeg'); 
+    /*background-image: url('test_patate.jpeg'); */
     background-size: 20px;
     background-position: left center; 
     background-repeat: no-repeat;
@@ -2541,9 +2541,9 @@ input
 {
     position: relative;
     top: 17.5px ;
-    left: 27px;
+    left: 30px;
     z-index: 3; /* Pour superposé le bouton de recherche devant la barre de recherche */
-    opacity: 0.5; /* je rend le bouton transparent */
+    opacity: 1; /* je rend le bouton transparent */
 }
 
 
@@ -2557,7 +2557,7 @@ input
     height: 25px;
     border-radius: 50px 50px 50px 50px; /*  Pour arrondir la forme : coin gauche sup, coin droite sup, coin droite inf, coin gauche inf */
     padding-left: 30px; 
-    background-image: url('test_patate.jpeg'); 
+    /*background-image: url('test_patate.jpeg'); */
     background-size: 20px;
     background-position: left center; 
     background-repeat: no-repeat;
@@ -2904,7 +2904,7 @@ input
 /* Création du bouton de devis gratuit caché */
 @media only screen and (min-width: 1020px)
 {
-    #bouton_display_1
+    #bouton_devis_gratuit_2
     {
         display: none;
     }
