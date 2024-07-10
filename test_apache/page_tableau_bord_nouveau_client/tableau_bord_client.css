@@ -124,7 +124,7 @@ input
 #header_bouton_1
 {
     bottom: 0px;
-    margin-left: 160%;
+    margin-left: 50px;
     padding: 10px 40px; /* largeur, longueur*/
     border-radius: 20px;
     border: 2px solid white;
@@ -135,7 +135,7 @@ input
 #header_bouton_2
 {
     bottom: 0px;
-    margin-left: 570%;
+    margin-left: 20px;
     padding: 10px 18px; /* largeur, longueur*/
     border-radius: 20px;
     border: 2px solid white;
@@ -146,7 +146,7 @@ input
 #header_bouton_3
 {
     bottom: 0px;
-    margin-left: 335%;
+    margin-left: 50px;
     padding: 10px 18px; /* largeur, longueur*/
     border-radius: 20px;
     border: 2px solid white;
