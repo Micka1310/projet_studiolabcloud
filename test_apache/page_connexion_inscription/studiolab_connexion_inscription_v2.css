@@ -474,7 +474,7 @@ span
 
 
 
-#inscription_mdp_3
+#inscription_mdp_comfirm_1
 {
     position: relative;
     margin-top: 7%;
@@ -512,6 +512,20 @@ span
     margin-right: 6.2%;
     margin-top: 4%;
 }
+
+#img_mdp_comfirm_1
+{
+    margin-left: -6.2%;
+    margin-top: 4%;
+}
+
+#img_mdp_comfirm_2
+{
+    margin-right: 6.2%;
+    margin-top: 4%;
+}
+
+
 
 
 
